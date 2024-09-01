@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01BxdmAHq6JwRo9q3KUh9WQB","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Voici l'identification de 'Money' dans le texte donné, formatée en liste :\n\n- лв654689"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":91,"output_tokens":32}}

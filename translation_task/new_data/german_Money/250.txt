@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01PVnRQgHQd6uw4E2uMkFg2b","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Here is the identified 'Money' from the given text, formatted as a list:\n\n- ﷼563,403.09"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":115,"output_tokens":32}}

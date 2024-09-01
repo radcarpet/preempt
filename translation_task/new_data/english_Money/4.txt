@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01SpmEYGcU1Au468Uv1jBmcD","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Here is the identified 'Money' from the given text, formatted as a list:\n\n- 495918.94 TOP"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":89,"output_tokens":30}}

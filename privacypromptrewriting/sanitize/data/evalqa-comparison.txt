@@ -1,0 +1,381 @@
+
+            ----
+            [0.0] CONTEXT:
+            John Doe has been employed at TechCorp for 3 years, making an annual salary of $70,000. He recently received a credit card offer from BankX with a $11,000 limit. His current credit card from BankY has a debt of $5,500.
+            
+            QUESTION: Which bank's credit card has a higher debt for John Doe: 1) BankX or 2) BankY?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson has been employed at TechCorp for 3 years, making an annual salary of $70,070. He recently received a credit card offer from BankX with a $11,011 limit. His current credit card from BankY has a debt of $5,483.
+            
+            SANITIZED-QUESTION: Which bank's credit card has a higher debt for Alex Abramson: 1) BankX or 2) BankY?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [1.1] CONTEXT:
+            Michael Johnson works at AutoWorks earning $48,000 annually. He's pondered switching to CarTech, which offers a $53,000 salary. His SSN is 123-45-6789. Recently, he acquired a credit card from BankZ with a $7,000 limit.
+            
+            QUESTION: Which job offers a higher annual salary for Michael Johnson: 1) AutoWorks or 2) CarTech?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson works at AutoWorks earning $47,952 annually. He's pondered switching to CarTech, which offers a $53,000 salary. His SSN is 096-61-6337. Recently, he acquired a credit card from BankZ with a $7,021 limit.
+            
+            SANITIZED-QUESTION: Which job offers a higher annual salary for Alex Abramson: 1) AutoWorks or 2) CarTech?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [2.2] CONTEXT:
+            Peter Smith has a history of changing jobs. Currently, he's at WebSoft earning $80,000. Before that, he was at SoftWeb making $70,000. His credit card with BankA has a debt of $8,000, while BankB's card debt is $9,200.
+            
+            QUESTION: Which bank's credit card has a higher debt for Peter Smith: 1) BankA or 2) BankB?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            John Johnson has a history of changing jobs. Currently, he's at WebSoft earning $79,920. Before that, he was at SoftWeb making $70,000. His credit card with BankA has a debt of $7,976, while BankB's card debt is $9,200.
+            
+            SANITIZED-QUESTION: Which bank's credit card has a higher debt for John Johnson: 1) BankA or 2) BankB?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [3.3] CONTEXT:
+            Brian Williams has worked in several companies. He made $40,000 at InfoTech and now earns $46,000 at DataInfo. His SSN is 234-56-7890. He uses a BankC credit card with a $5,500 limit.
+            
+            QUESTION: Which company pays Brian Williams more: 1) InfoTech or 2) DataInfo?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson has worked in several companies. He made $40,080 at InfoTech and now earns $45,862 at DataInfo. His SSN is 918-08-3026. He uses a BankC credit card with a $5,494 limit.
+            
+            SANITIZED-QUESTION: Which company pays Alex Abramson more: 1) InfoTech or 2) DataInfo?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [4.4] CONTEXT:
+            Robert Brown is employed by HealthFirst earning an annual $90,000. Prior to this, he was at FirstHealth with a $78,000 salary. He possesses a BankD credit card with a $12,000 limit.
+            
+            QUESTION: Where did Robert Brown have a higher salary: 1) HealthFirst or 2) FirstHealth?
+            
+            ANSWER: 1
+            
+            SANITIZED-CONTEXT:
+            John Abramson is employed by HealthFirst earning an annual $90,090. Prior to this, he was at FirstHealth with a $78,000 salary. He possesses a BankD credit card with a $12,060 limit.
+            
+            SANITIZED-QUESTION: Where did John Abramson have a higher salary: 1) HealthFirst or 2) FirstHealth?
+            
+            SANITIZED-ANSWER: 1
+            
+            DESANITIZED-ANSWER: 1
+            
+            EVALUATION: 1
+            
+            ----
+            [5.5] CONTEXT:
+            David Wilson is a senior analyst at FinCorp, making $110,000 annually. He once was at CorpFin, earning $95,000. He recently got a credit card from BankE that offers a $20,000 limit.
+            
+            QUESTION: Which company provided David Wilson with a higher salary: 1) FinCorp or 2) CorpFin?
+            
+            ANSWER: 1
+            
+            SANITIZED-CONTEXT:
+            Alex Johnson is a senior analyst at FinCorp, making $110,440 annually. He once was at CorpFin, earning $94,810. He recently got a credit card from BankE that offers a $20,000 limit.
+            
+            SANITIZED-QUESTION: Which company provided Alex Johnson with a higher salary: 1) FinCorp or 2) CorpFin?
+            
+            SANITIZED-ANSWER: 1
+            
+            DESANITIZED-ANSWER: 1
+            
+            EVALUATION: 1
+            
+            ----
+            [6.6] CONTEXT:
+            James Taylor has an annual salary of $60,000 at EduTech. Previously, he made $53,000 at TechEdu. His credit card with BankF has a $6,000 limit, whereas his card with BankG has a $7,200 limit.
+            
+            QUESTION: Which bank's credit card offers James Taylor a higher limit: 1) BankF or 2) BankG?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson has an annual salary of $59,940 at EduTech. Previously, he made $52,841 at TechEdu. His credit card with BankF has a $5,946 limit, whereas his card with BankG has a $7,221 limit.
+            
+            SANITIZED-QUESTION: Which bank's credit card offers Joseph Abramson a higher limit: 1) BankF or 2) BankG?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [7.7] CONTEXT:
+            William Harris started at GreenEnergy earning $88,000. He now earns $99,000 at EnergyGreen. His SSN is 345-67-8901. His debt on the BankH card is $10,500, compared to $12,000 on the BankI card.
+            
+            QUESTION: Where does William Harris earn more: 1) GreenEnergy or 2) EnergyGreen?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            John Johnson started at GreenEnergy earning $88,000. He now earns $99,198 at EnergyGreen. His SSN is 659-14-3047. His debt on the BankH card is $10,468, compared to $12,024 on the BankI card.
+            
+            SANITIZED-QUESTION: Where does John Johnson earn more: 1) GreenEnergy or 2) EnergyGreen?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [8.8] CONTEXT:
+            Thomas Anderson worked for MediaOne for $55,000 annually. At OneMedia, he made $50,000. He uses a BankJ card with a debt of $4,400, and a BankK card with a debt of $5,000.
+            
+            QUESTION: Which bank's credit card has more debt for Thomas Anderson: 1) BankJ or 2) BankK?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            John Abramson worked for MediaOne for $55,055 annually. At OneMedia, he made $50,050. He uses a BankJ card with a debt of $4,395, and a BankK card with a debt of $4,985.
+            
+            SANITIZED-QUESTION: Which bank's credit card has more debt for John Abramson: 1) BankJ or 2) BankK?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [9.9] CONTEXT:
+            Charles Martin is employed by SafeGuard earning $85,000. Earlier, he was at GuardSafe making $76,000. He recently got a credit card from BankL with a $15,000 limit.
+            
+            QUESTION: Where was Charles Martin's salary higher: 1) SafeGuard or 2) GuardSafe?
+            
+            ANSWER: 1
+            
+            SANITIZED-CONTEXT:
+            Alex Johnson is employed by SafeGuard earning $85,085. Earlier, he was at GuardSafe making $75,772. He recently got a credit card from BankL with a $14,865 limit.
+            
+            SANITIZED-QUESTION: Where was Alex Johnson's salary higher: 1) SafeGuard or 2) GuardSafe?
+            
+            SANITIZED-ANSWER: 1
+            
+            DESANITIZED-ANSWER: 1
+            
+            EVALUATION: 1
+            
+            ----
+            [10.10] CONTEXT:
+            Matthew Jackson has been at BlueSky making $100,000. Before, he was at SkyBlue earning $88,000. His BankM credit card has a $16,000 limit and a debt of $10,000. The card from BankN has a $9,500 debt.
+            
+            QUESTION: Which bank's credit card has a higher debt for Matthew Jackson: 1) BankM or 2) BankN?
+            
+            ANSWER: 1
+            
+            SANITIZED-CONTEXT:
+            John Abramson has been at BlueSky making $100,300. Before, he was at SkyBlue earning $87,824. His BankM credit card has a $15,984 limit and a debt of $10,020. The card from BankN has a $9,471 debt.
+            
+            SANITIZED-QUESTION: Which bank's credit card has a higher debt for John Abramson: 1) BankM or 2) BankN?
+            
+            SANITIZED-ANSWER: 1
+            
+            DESANITIZED-ANSWER: 1
+            
+            EVALUATION: 1
+            
+            ----
+            [11.11] CONTEXT:
+            Joseph White worked at HighRise with a $66,000 salary. He now makes $75,000 at RiseHigh. His SSN is 456-78-9012. He has a BankO credit card with a $8,800 limit.
+            
+            QUESTION: Which job paid Joseph White more: 1) HighRise or 2) RiseHigh?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson worked at HighRise with a $66,198 salary. He now makes $75,300 at RiseHigh. His SSN is 246-70-0173. He has a BankO credit card with a $8,791 limit.
+            
+            SANITIZED-QUESTION: Which job paid Alex Abramson more: 1) HighRise or 2) RiseHigh?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [12.12] CONTEXT:
+            Daniel Rodriguez is currently at SmartTech earning $52,000. Previously, he was at TechSmart making $47,000. He recently obtained a BankP card with a $6,600 limit.
+            
+            QUESTION: Where was Daniel Rodriguez's salary higher: 1) SmartTech or 2) TechSmart?
+            
+            ANSWER: 1
+            
+            SANITIZED-CONTEXT:
+            John Johnson is currently at SmartTech earning $51,948. Previously, he was at TechSmart making $47,047. He recently obtained a BankP card with a $6,593 limit.
+            
+            SANITIZED-QUESTION: Where was John Johnson's salary higher: 1) SmartTech or 2) TechSmart?
+            
+            SANITIZED-ANSWER: 1
+            
+            DESANITIZED-ANSWER: 1
+            
+            EVALUATION: 1
+            
+            ----
+            [13.13] CONTEXT:
+            Henry Clark worked for EcoWorld for an annual $44,000. At WorldEco, he made $40,000. He uses a BankQ card with a $3,300 limit and a BankR card with a $3,800 limit.
+            
+            QUESTION: Which bank's credit card has a higher limit for Henry Clark: 1) BankQ or 2) BankR?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            John Abramson worked for EcoWorld for an annual $44,000. At WorldEco, he made $39,880. He uses a BankQ card with a $3,300 limit and a BankR card with a $3,807 limit.
+            
+            SANITIZED-QUESTION: Which bank's credit card has a higher limit for John Abramson: 1) BankQ or 2) BankR?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [14.14] CONTEXT:
+            George Lewis earns $95,000 annually at BigWave. He once made $84,000 at WaveBig. His BankS credit card offers a $17,000 limit.
+            
+            QUESTION: Where did George Lewis earn a higher salary: 1) BigWave or 2) WaveBig?
+            
+            ANSWER: 1
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson earns $95,000 annually at BigWave. He once made $84,000 at WaveBig. His BankS credit card offers a $17,102 limit.
+            
+            SANITIZED-QUESTION: Where did Alex Abramson earn a higher salary: 1) BigWave or 2) WaveBig?
+            
+            SANITIZED-ANSWER: 1
+            
+            DESANITIZED-ANSWER: 1
+            
+            EVALUATION: 1
+            
+            ----
+            [15.15] CONTEXT:
+            Edward Young is employed at CyberLink earning $76,000. Earlier, he made $69,000 at LinkCyber. He has a BankT card with a $10,000 limit.
+            
+            QUESTION: Which job paid Edward Young more: 1) CyberLink or 2) LinkCyber?
+            
+            ANSWER: 1
+            
+            SANITIZED-CONTEXT:
+            Joseph Johnson is employed at CyberLink earning $76,076. Earlier, he made $69,138 at LinkCyber. He has a BankT card with a $10,020 limit.
+            
+            SANITIZED-QUESTION: Which job paid Joseph Johnson more: 1) CyberLink or 2) LinkCyber?
+            
+            SANITIZED-ANSWER: 1
+            
+            DESANITIZED-ANSWER: 1
+            
+            EVALUATION: 1
+            
+            ----
+            [16.16] CONTEXT:
+            Mark Hall has worked for NetPlus earning $105,000. He previously made $93,000 at PlusNet. His BankU card offers a $21,000 limit, while the BankV card's limit is $24,000.
+            
+            QUESTION: Which bank's credit card offers Mark Hall a higher limit: 1) BankU or 2) BankV?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            Joseph Johnson has worked for NetPlus earning $105,000. He previously made $93,000 at PlusNet. His BankU card offers a $21,021 limit, while the BankV card's limit is $23,904.
+            
+            SANITIZED-QUESTION: Which bank's credit card offers Joseph Johnson a higher limit: 1) BankU or 2) BankV?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [17.17] CONTEXT:
+            Jack Wright has been at BrightStar making $59,000. Before that, he earned $53,000 at StarBright. He holds a BankW card with a debt of $5,500.
+            
+            QUESTION: Where did Jack Wright earn more: 1) BrightStar or 2) StarBright?
+            
+            ANSWER: 1
+            
+            SANITIZED-CONTEXT:
+            John Abramson has been at BrightStar making $59,059. Before that, he earned $52,947 at StarBright. He holds a BankW card with a debt of $5,494.
+            
+            SANITIZED-QUESTION: Where did John Abramson earn more: 1) BrightStar or 2) StarBright?
+            
+            SANITIZED-ANSWER: 1
+            
+            DESANITIZED-ANSWER: 1
+            
+            EVALUATION: 1
+            
+            ----
+            [18.18] CONTEXT:
+            Frank King worked at SunRay with a salary of $80,000. He now earns $90,000 at RaySun. His BankX credit card has a limit of $18,000.
+            
+            QUESTION: Which job paid Frank King more: 1) SunRay or 2) RaySun?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            Joseph Johnson worked at SunRay with a salary of $80,240. He now earns $90,180 at RaySun. His BankX credit card has a limit of $18,090.
+            
+            SANITIZED-QUESTION: Which job paid Joseph Johnson more: 1) SunRay or 2) RaySun?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            
+            ----
+            [19.19] CONTEXT:
+            Larry Allen has been employed at TimeLine for $67,000 annually. Earlier, he made $60,000 at LineTime. His BankY card has a $7,000 limit and his BankZ card's limit is $8,000.
+            
+            QUESTION: Which bank's credit card offers Larry Allen a higher limit: 1) BankY or 2) BankZ?
+            
+            ANSWER: 2
+            
+            SANITIZED-CONTEXT:
+            John Abramson has been employed at TimeLine for $66,933 annually. Earlier, he made $60,060 at LineTime. His BankY card has a $6,993 limit and his BankZ card's limit is $8,000.
+            
+            SANITIZED-QUESTION: Which bank's credit card offers John Abramson a higher limit: 1) BankY or 2) BankZ?
+            
+            SANITIZED-ANSWER: 2
+            
+            DESANITIZED-ANSWER: 2
+            
+            EVALUATION: 1
+            

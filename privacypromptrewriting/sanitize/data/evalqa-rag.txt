@@ -1,0 +1,751 @@
+
+            ----
+            [0.0] CONTEXT:
+            Robin ordered a 'GoPro HERO9 Black' from BigMart, order number BM200200. The camera, ID GP-H9B,
+cost $399.99. With shipping and tax, the total was $435.59. It will be shipped to 80203, and
+is expected to arrive by Mar 20th. Robin can be reached at robin@example.com or 303-402-1234.
+
+            
+            QUESTION: What's the total I paid for my GoPro HERO9 Black?
+
+            
+            ANSWER:  The total you paid for your GoPro HERO9 Black was $435.59.
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson ordered a 'GoPro HERO9 Black' from BigMart, order number zht647OF. The camera, ID 5r-Jbb,
+cost $400. With shipping and tax, the total was $433. It will be shipped to 62473, and
+is expected to arrive by April 04. Alex Abramson can be reached at KzXiv@example.com or 140-544-1141.
+            
+            SANITIZED-QUESTION: What's the total I paid for my GoPro HERO9 Black?
+            
+            SANITIZED-ANSWER: $433
+            
+            DESANITIZED-ANSWER: $435.59
+            
+            EVALUATION: 1
+            
+            ----
+            [0.1] CONTEXT:
+            Robin ordered a 'GoPro HERO9 Black' from BigMart, order number BM200200. The camera, ID GP-H9B,
+cost $399.99. With shipping and tax, the total was $435.59. It will be shipped to 80203, and
+is expected to arrive by Mar 20th. Robin can be reached at robin@example.com or 303-402-1234.
+
+            
+            QUESTION: When will my GoPro camera arrive?
+
+            
+            ANSWER:  Your GoPro camera will arrive by Mar 20th.
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson ordered a 'GoPro HERO9 Black' from BigMart, order number zht647OF. The camera, ID 5r-Jbb,
+cost $400. With shipping and tax, the total was $433. It will be shipped to 62473, and
+is expected to arrive by April 04. Alex Abramson can be reached at KzXiv@example.com or 140-544-1141.
+            
+            SANITIZED-QUESTION: When will my GoPro camera arrive?
+            
+            SANITIZED-ANSWER: April 04.
+            
+            DESANITIZED-ANSWER: Mar 20th.
+            
+            EVALUATION: 1
+            
+            ----
+            [0.2] CONTEXT:
+            Robin ordered a 'GoPro HERO9 Black' from BigMart, order number BM200200. The camera, ID GP-H9B,
+cost $399.99. With shipping and tax, the total was $435.59. It will be shipped to 80203, and
+is expected to arrive by Mar 20th. Robin can be reached at robin@example.com or 303-402-1234.
+
+            
+            QUESTION: What is the product ID of my GoPro camera?
+
+            
+            ANSWER:  The product ID of your GoPro camera is GP-H9B.
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson ordered a 'GoPro HERO9 Black' from BigMart, order number zht647OF. The camera, ID 5r-Jbb,
+cost $400. With shipping and tax, the total was $433. It will be shipped to 62473, and
+is expected to arrive by April 04. Alex Abramson can be reached at KzXiv@example.com or 140-544-1141.
+            
+            SANITIZED-QUESTION: What is the product ID of my GoPro camera?
+            
+            SANITIZED-ANSWER: 5r-Jbb
+            
+            DESANITIZED-ANSWER: GP-H9B
+            
+            EVALUATION: 1
+            
+            ----
+            [1.3] CONTEXT:
+            Avery purchased a 'Microsoft Surface Pro 7' on BigMart, order BM300300. The product ID is MS-SP7,
+priced at $749.99. The final amount with tax and $9.99 shipping is $810.49. Delivery to 10024 is
+expected by Apr 10th. Avery’s contact details are avery@example.com and 212-555-6789.
+
+            
+            QUESTION: How much did I pay in total for the Surface Pro 7 including shipping?
+
+            
+            ANSWER:  Your total payment for the Surface Pro 7 including shipping was $810.49.
+            
+            SANITIZED-CONTEXT:
+            John Johnson purchased a 'Microsoft Surface Pro 7' on BigMart, order AnMNo4Uc. The product ID is GE-5Qt,
+priced at $748. The final amount with tax and $9.99 shipping is $806. Delivery to 56075 is
+expected by April 04. John Johnson’s contact details are yd6pe@example.com and 833-413-1667.
+            
+            SANITIZED-QUESTION: How much did I pay in total for the Surface Pro 7 including shipping?
+            
+            SANITIZED-ANSWER: $806
+            
+            DESANITIZED-ANSWER: $810.49
+            
+            EVALUATION: 1
+            
+            ----
+            [1.4] CONTEXT:
+            Avery purchased a 'Microsoft Surface Pro 7' on BigMart, order BM300300. The product ID is MS-SP7,
+priced at $749.99. The final amount with tax and $9.99 shipping is $810.49. Delivery to 10024 is
+expected by Apr 10th. Avery’s contact details are avery@example.com and 212-555-6789.
+
+            
+            QUESTION: What is the estimated delivery date for my Microsoft Surface Pro 7?
+
+            
+            ANSWER:  The estimated delivery date for your Microsoft Surface Pro 7 is by Apr 10th.
+            
+            SANITIZED-CONTEXT:
+            John Johnson purchased a 'Microsoft Surface Pro 7' on BigMart, order AnMNo4Uc. The product ID is GE-5Qt,
+priced at $748. The final amount with tax and $9.99 shipping is $806. Delivery to 56075 is
+expected by April 04. John Johnson’s contact details are yd6pe@example.com and 833-413-1667.
+            
+            SANITIZED-QUESTION: What is the estimated delivery date for my Microsoft Surface Pro 7?
+            
+            SANITIZED-ANSWER: April 04.
+            
+            DESANITIZED-ANSWER: Apr 10th.
+            
+            EVALUATION: 1
+            
+            ----
+            [1.5] CONTEXT:
+            Avery purchased a 'Microsoft Surface Pro 7' on BigMart, order BM300300. The product ID is MS-SP7,
+priced at $749.99. The final amount with tax and $9.99 shipping is $810.49. Delivery to 10024 is
+expected by Apr 10th. Avery’s contact details are avery@example.com and 212-555-6789.
+
+            
+            QUESTION: What's the product ID of the item I ordered?
+
+            
+            ANSWER:  The product ID of the item you ordered is MS-SP7.
+            
+            SANITIZED-CONTEXT:
+            John Johnson purchased a 'Microsoft Surface Pro 7' on BigMart, order AnMNo4Uc. The product ID is GE-5Qt,
+priced at $748. The final amount with tax and $9.99 shipping is $806. Delivery to 56075 is
+expected by April 04. John Johnson’s contact details are yd6pe@example.com and 833-413-1667.
+            
+            SANITIZED-QUESTION: What's the product ID of the item I ordered?
+            
+            SANITIZED-ANSWER: GE-5Qt
+            
+            DESANITIZED-ANSWER: MS-SP7
+            
+            EVALUATION: 1
+            
+            ----
+            [2.6] CONTEXT:
+            Jordan bought an 'Apple iPad Air (4th Generation)' from BigMart under order BM400400. The
+iPad, with product ID AP-IPA4, was $599.00. Total cost after $7.99 shipping and tax is $648.94.
+The delivery to 94105 is expected by May 15th. Contact: jordan@example.com, 415-322-9087.
+
+            
+            QUESTION: What was the total amount for my iPad Air purchase?
+
+            
+            ANSWER:  The total amount for your iPad Air purchase was $648.94.
+            
+            SANITIZED-CONTEXT:
+            John Abramson bought an 'Apple iPad Air (4th Generation)' from BigMart under order BRVEwvj2. The
+iPad, with product ID 95-pFpY, was $600. Total cost after $7.99 shipping and tax is $648.
+The delivery to 63597 is expected by May 07. Contact: S8ugcD@example.com, 261-480-8334.
+            
+            SANITIZED-QUESTION: What was the total amount for my iPad Air purchase?
+            
+            SANITIZED-ANSWER: $648
+            
+            DESANITIZED-ANSWER: $648.94
+            
+            EVALUATION: 1
+            
+            ----
+            [2.7] CONTEXT:
+            Jordan bought an 'Apple iPad Air (4th Generation)' from BigMart under order BM400400. The
+iPad, with product ID AP-IPA4, was $599.00. Total cost after $7.99 shipping and tax is $648.94.
+The delivery to 94105 is expected by May 15th. Contact: jordan@example.com, 415-322-9087.
+
+            
+            QUESTION: When is my iPad expected to be delivered?
+
+            
+            ANSWER:  Your iPad is expected to be delivered by May 15th.
+            
+            SANITIZED-CONTEXT:
+            John Abramson bought an 'Apple iPad Air (4th Generation)' from BigMart under order BRVEwvj2. The
+iPad, with product ID 95-pFpY, was $600. Total cost after $7.99 shipping and tax is $648.
+The delivery to 63597 is expected by May 07. Contact: S8ugcD@example.com, 261-480-8334.
+            
+            SANITIZED-QUESTION: When is my iPad expected to be delivered?
+            
+            SANITIZED-ANSWER: May 07.
+            
+            DESANITIZED-ANSWER: May 15th.
+            
+            EVALUATION: 1
+            
+            ----
+            [2.8] CONTEXT:
+            Jordan bought an 'Apple iPad Air (4th Generation)' from BigMart under order BM400400. The
+iPad, with product ID AP-IPA4, was $599.00. Total cost after $7.99 shipping and tax is $648.94.
+The delivery to 94105 is expected by May 15th. Contact: jordan@example.com, 415-322-9087.
+
+            
+            QUESTION: Can you provide the product ID for my iPad Air?
+
+            
+            ANSWER:  The product ID for your iPad Air is AP-IPA4.
+            
+            SANITIZED-CONTEXT:
+            John Abramson bought an 'Apple iPad Air (4th Generation)' from BigMart under order BRVEwvj2. The
+iPad, with product ID 95-pFpY, was $600. Total cost after $7.99 shipping and tax is $648.
+The delivery to 63597 is expected by May 07. Contact: S8ugcD@example.com, 261-480-8334.
+            
+            SANITIZED-QUESTION: Can you provide the product ID for my iPad Air?
+            
+            SANITIZED-ANSWER: 95-pFpY
+            
+            DESANITIZED-ANSWER: AP-IPA4
+            
+            EVALUATION: 1
+            
+            ----
+            [3.9] CONTEXT:
+            Taylor ordered a 'Dell XPS 13 Laptop' from BigMart, order number BM500500. The laptop, ID
+DE-XPS13, cost $1,199.99. The total with tax and a $12.00 shipping fee is $1,294.99. It's
+expected to arrive at zip 60611 by Jun 18th. Contact info: taylor@example.com, 312-413-9912.
+
+            
+            QUESTION: How much was the total cost for my Dell XPS 13, including shipping?
+
+            
+            ANSWER:  The total cost for your Dell XPS 13, including shipping, was $1,294.99.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson ordered a 'Dell XPS 13 Laptop' from BigMart, order number 1gWKUaA7. The laptop, ID
+Pv-ncv37, cost $1,202. The total with tax and a $12.00 shipping fee is $1,295. It's
+expected to arrive at zip 02223 by June 09. Contact info: 86pitr@example.com, 779-733-9674.
+            
+            SANITIZED-QUESTION: How much was the total cost for my Dell XPS 13, including shipping?
+            
+            SANITIZED-ANSWER: $1,295.
+            
+            DESANITIZED-ANSWER: $1,294.99.
+            
+            EVALUATION: 1
+            
+            ----
+            [3.10] CONTEXT:
+            Taylor ordered a 'Dell XPS 13 Laptop' from BigMart, order number BM500500. The laptop, ID
+DE-XPS13, cost $1,199.99. The total with tax and a $12.00 shipping fee is $1,294.99. It's
+expected to arrive at zip 60611 by Jun 18th. Contact info: taylor@example.com, 312-413-9912.
+
+            
+            QUESTION: What date should I expect my laptop?
+
+            
+            ANSWER:  You should expect your laptop by Jun 18th.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson ordered a 'Dell XPS 13 Laptop' from BigMart, order number 1gWKUaA7. The laptop, ID
+Pv-ncv37, cost $1,202. The total with tax and a $12.00 shipping fee is $1,295. It's
+expected to arrive at zip 02223 by June 09. Contact info: 86pitr@example.com, 779-733-9674.
+            
+            SANITIZED-QUESTION: What date should I expect my laptop?
+            
+            SANITIZED-ANSWER: June 09.
+            
+            DESANITIZED-ANSWER: Jun 18th.
+            
+            EVALUATION: 1
+            
+            ----
+            [3.11] CONTEXT:
+            Taylor ordered a 'Dell XPS 13 Laptop' from BigMart, order number BM500500. The laptop, ID
+DE-XPS13, cost $1,199.99. The total with tax and a $12.00 shipping fee is $1,294.99. It's
+expected to arrive at zip 60611 by Jun 18th. Contact info: taylor@example.com, 312-413-9912.
+
+            
+            QUESTION: What is the product ID of the Dell XPS 13 I ordered?
+
+            
+            ANSWER:  The product ID of the Dell XPS 13 you ordered is DE-XPS13.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson ordered a 'Dell XPS 13 Laptop' from BigMart, order number 1gWKUaA7. The laptop, ID
+Pv-ncv37, cost $1,202. The total with tax and a $12.00 shipping fee is $1,295. It's
+expected to arrive at zip 02223 by June 09. Contact info: 86pitr@example.com, 779-733-9674.
+            
+            SANITIZED-QUESTION: What is the product ID of the Dell XPS 13 I ordered?
+            
+            SANITIZED-ANSWER: Pv-ncv37
+            
+            DESANITIZED-ANSWER: DE-XPS13
+            
+            EVALUATION: 1
+            
+            ----
+            [4.12] CONTEXT:
+            Alex made a purchase of a 'Bose Soundbar 700' at BigMart, order BM600600. The soundbar, ID
+BS-SB700, was priced at $799.00. The final bill, with $13.00 shipping and tax, is $863.37.
+This is scheduled to arrive in 90025 by Jul 25th. Alex’s contact: alex@example.com, 310-447-5689.
+
+            
+            QUESTION: What's the total I paid for the Bose Soundbar 700?
+
+            
+            ANSWER:  The total you paid for the Bose Soundbar 700 was $863.37.
+            
+            SANITIZED-CONTEXT:
+            Alex Johnson made a purchase of a 'Bose Soundbar 700' at BigMart, order n8eKyLMR. The soundbar, ID
+CJ-yScTf, was priced at $800. The final bill, with $12 shipping and tax, is $863.
+This is scheduled to arrive in 53160 by August 25. Alex Johnson’s contact: I2Mf@example.com, 012-459-5953.
+            
+            SANITIZED-QUESTION: What's the total I paid for the Bose Soundbar 700?
+            
+            SANITIZED-ANSWER: $863
+            
+            DESANITIZED-ANSWER: $863.37
+            
+            EVALUATION: 1
+            
+            ----
+            [4.13] CONTEXT:
+            Alex made a purchase of a 'Bose Soundbar 700' at BigMart, order BM600600. The soundbar, ID
+BS-SB700, was priced at $799.00. The final bill, with $13.00 shipping and tax, is $863.37.
+This is scheduled to arrive in 90025 by Jul 25th. Alex’s contact: alex@example.com, 310-447-5689.
+
+            
+            QUESTION: When will my soundbar be delivered?
+
+            
+            ANSWER:  Your soundbar will be delivered by Jul 25th.
+            
+            SANITIZED-CONTEXT:
+            Alex Johnson made a purchase of a 'Bose Soundbar 700' at BigMart, order n8eKyLMR. The soundbar, ID
+CJ-yScTf, was priced at $800. The final bill, with $12 shipping and tax, is $863.
+This is scheduled to arrive in 53160 by August 25. Alex Johnson’s contact: I2Mf@example.com, 012-459-5953.
+            
+            SANITIZED-QUESTION: When will my soundbar be delivered?
+            
+            SANITIZED-ANSWER: August 25.
+            
+            DESANITIZED-ANSWER: Jul 25th.
+            
+            EVALUATION: 1
+            
+            ----
+            [4.14] CONTEXT:
+            Alex made a purchase of a 'Bose Soundbar 700' at BigMart, order BM600600. The soundbar, ID
+BS-SB700, was priced at $799.00. The final bill, with $13.00 shipping and tax, is $863.37.
+This is scheduled to arrive in 90025 by Jul 25th. Alex’s contact: alex@example.com, 310-447-5689.
+
+            
+            QUESTION: Can you tell me the product ID for my Bose Soundbar?
+
+            
+            ANSWER:  The product ID for your Bose Soundbar is BS-SB700.
+            
+            SANITIZED-CONTEXT:
+            Alex Johnson made a purchase of a 'Bose Soundbar 700' at BigMart, order n8eKyLMR. The soundbar, ID
+CJ-yScTf, was priced at $800. The final bill, with $12 shipping and tax, is $863.
+This is scheduled to arrive in 53160 by August 25. Alex Johnson’s contact: I2Mf@example.com, 012-459-5953.
+            
+            SANITIZED-QUESTION: Can you tell me the product ID for my Bose Soundbar?
+            
+            SANITIZED-ANSWER: CJ-yScTf
+            
+            DESANITIZED-ANSWER: BS-SB700
+            
+            EVALUATION: 1
+            
+            ----
+            [5.15] CONTEXT:
+            Morgan ordered a 'KitchenAid Artisan Series Mixer' from BigMart, order BM700700. The mixer, ID
+KA-ASM, cost $379.99. Including $10.00 shipping and tax, the total is $410.89. It will be
+delivered to 78758 by Aug 15th. Morgan’s email is morgan@example.com, phone 512-481-7523.
+
+            
+            QUESTION: How much did my KitchenAid Mixer cost in total?
+
+            
+            ANSWER:  Your KitchenAid Mixer cost a total of $410.89.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson ordered a 'KitchenAid Artisan Series Mixer' from BigMart, order pZO2AfSk. The mixer, ID
+96-12a, cost $377. Including $10.00 shipping and tax, the total is $410. It will be
+delivered to 74070 by September 16. Joseph Abramson’s email is 3HqWjo@example.com, phone 950-582-3997.
+            
+            SANITIZED-QUESTION: How much did my KitchenAid Mixer cost in total?
+            
+            SANITIZED-ANSWER: $410
+            
+            DESANITIZED-ANSWER: $410.89
+            
+            EVALUATION: 1
+            
+            ----
+            [5.16] CONTEXT:
+            Morgan ordered a 'KitchenAid Artisan Series Mixer' from BigMart, order BM700700. The mixer, ID
+KA-ASM, cost $379.99. Including $10.00 shipping and tax, the total is $410.89. It will be
+delivered to 78758 by Aug 15th. Morgan’s email is morgan@example.com, phone 512-481-7523.
+
+            
+            QUESTION: What's the delivery date for my mixer?
+
+            
+            ANSWER:  The delivery date for your mixer is by Aug 15th.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson ordered a 'KitchenAid Artisan Series Mixer' from BigMart, order pZO2AfSk. The mixer, ID
+96-12a, cost $377. Including $10.00 shipping and tax, the total is $410. It will be
+delivered to 74070 by September 16. Joseph Abramson’s email is 3HqWjo@example.com, phone 950-582-3997.
+            
+            SANITIZED-QUESTION: What's the delivery date for my mixer?
+            
+            SANITIZED-ANSWER: September 16.
+            
+            DESANITIZED-ANSWER: Aug 15th.
+            
+            EVALUATION: 1
+            
+            ----
+            [5.17] CONTEXT:
+            Morgan ordered a 'KitchenAid Artisan Series Mixer' from BigMart, order BM700700. The mixer, ID
+KA-ASM, cost $379.99. Including $10.00 shipping and tax, the total is $410.89. It will be
+delivered to 78758 by Aug 15th. Morgan’s email is morgan@example.com, phone 512-481-7523.
+
+            
+            QUESTION: What is the product ID of the mixer I bought?
+
+            
+            ANSWER:  The product ID of the mixer you bought is KA-ASM.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson ordered a 'KitchenAid Artisan Series Mixer' from BigMart, order pZO2AfSk. The mixer, ID
+96-12a, cost $377. Including $10.00 shipping and tax, the total is $410. It will be
+delivered to 74070 by September 16. Joseph Abramson’s email is 3HqWjo@example.com, phone 950-582-3997.
+            
+            SANITIZED-QUESTION: What is the product ID of the mixer I bought?
+            
+            SANITIZED-ANSWER: 96-12a
+            
+            DESANITIZED-ANSWER: KA-ASM
+            
+            EVALUATION: 1
+            
+            ----
+            [6.18] CONTEXT:
+            Casey recently bought a 'Nikon D850 DSLR Camera' from BigMart, order BM800800. The camera, ID
+NK-D850, was $2,996.95. With tax and $20.00 shipping, the total is $3,241.70. Delivery to 30309
+is expected by Sep 9th. Contact: casey@example.com, 404-321-8765.
+
+            
+            QUESTION: What was the total amount I paid for the Nikon D850 camera?
+
+            
+            ANSWER:  The total amount you paid for the Nikon D850 camera was $3,241.70.
+            
+            SANITIZED-CONTEXT:
+            John Abramson recently bought a 'Nikon D850 DSLR Camera' from BigMart, order mqYA43Ni. The camera, ID
+tM-qZrR, was $2,972. With tax and $20.00 shipping, the total is $3,234. Delivery to 15321
+is expected by August 14. Contact: Sck4g@example.com, 705-020-8960.
+            
+            SANITIZED-QUESTION: What was the total amount I paid for the Nikon D850 camera?
+            
+            SANITIZED-ANSWER: $3,234
+            
+            DESANITIZED-ANSWER: $3,241.70
+            
+            EVALUATION: 1
+            
+            ----
+            [6.19] CONTEXT:
+            Casey recently bought a 'Nikon D850 DSLR Camera' from BigMart, order BM800800. The camera, ID
+NK-D850, was $2,996.95. With tax and $20.00 shipping, the total is $3,241.70. Delivery to 30309
+is expected by Sep 9th. Contact: casey@example.com, 404-321-8765.
+
+            
+            QUESTION: When is my camera supposed to arrive?
+
+            
+            ANSWER:  Your camera is supposed to arrive by Sep 9th.
+            
+            SANITIZED-CONTEXT:
+            John Abramson recently bought a 'Nikon D850 DSLR Camera' from BigMart, order mqYA43Ni. The camera, ID
+tM-qZrR, was $2,972. With tax and $20.00 shipping, the total is $3,234. Delivery to 15321
+is expected by August 14. Contact: Sck4g@example.com, 705-020-8960.
+            
+            SANITIZED-QUESTION: When is my camera supposed to arrive?
+            
+            SANITIZED-ANSWER: August 14.
+            
+            DESANITIZED-ANSWER: Sep 9th.
+            
+            EVALUATION: 1
+            
+            ----
+            [6.20] CONTEXT:
+            Casey recently bought a 'Nikon D850 DSLR Camera' from BigMart, order BM800800. The camera, ID
+NK-D850, was $2,996.95. With tax and $20.00 shipping, the total is $3,241.70. Delivery to 30309
+is expected by Sep 9th. Contact: casey@example.com, 404-321-8765.
+
+            
+            QUESTION: Can you provide the product ID for my Nikon camera?
+
+            
+            ANSWER:  The product ID for your Nikon camera is NK-D850.
+            
+            SANITIZED-CONTEXT:
+            John Abramson recently bought a 'Nikon D850 DSLR Camera' from BigMart, order mqYA43Ni. The camera, ID
+tM-qZrR, was $2,972. With tax and $20.00 shipping, the total is $3,234. Delivery to 15321
+is expected by August 14. Contact: Sck4g@example.com, 705-020-8960.
+            
+            SANITIZED-QUESTION: Can you provide the product ID for my Nikon camera?
+            
+            SANITIZED-ANSWER: tM-qZrR
+            
+            DESANITIZED-ANSWER: NK-D850
+            
+            EVALUATION: 1
+            
+            ----
+            [7.21] CONTEXT:
+            Riley's BigMart order BM900900 included a 'Garmin Fenix 6S Pro Solar' watch. The product ID
+is GM-F6SPS, costing $849.99. The final total with a $14.99 shipping fee and tax is $918.48.
+Expected arrival in 10011 is by Oct 10th. Riley can be reached at riley@example.com, 646-555-1234.
+
+            
+            QUESTION: How much was the total for my Garmin watch including shipping?
+
+            
+            ANSWER:  The total for your Garmin watch including shipping was $918.48.
+            
+            SANITIZED-CONTEXT:
+            John Johnson's BigMart order x4fCUtlT included a 'Garmin Fenix 6S Pro Solar' watch. The product ID
+is X8-6b2aU, costing $847. The final total with a $14.99 shipping fee and tax is $919.
+Expected arrival in 70758 is by October 08. John Johnson can be reached at IlPzq@example.com, 003-591-3429.
+            
+            SANITIZED-QUESTION: How much was the total for my Garmin watch including shipping?
+            
+            SANITIZED-ANSWER: $919
+            
+            DESANITIZED-ANSWER: $918.48
+            
+            EVALUATION: 1
+            
+            ----
+            [7.22] CONTEXT:
+            Riley's BigMart order BM900900 included a 'Garmin Fenix 6S Pro Solar' watch. The product ID
+is GM-F6SPS, costing $849.99. The final total with a $14.99 shipping fee and tax is $918.48.
+Expected arrival in 10011 is by Oct 10th. Riley can be reached at riley@example.com, 646-555-1234.
+
+            
+            QUESTION: When will my Garmin watch be delivered?
+
+            
+            ANSWER:  Your Garmin watch will be delivered by Oct 10th.
+            
+            SANITIZED-CONTEXT:
+            John Johnson's BigMart order x4fCUtlT included a 'Garmin Fenix 6S Pro Solar' watch. The product ID
+is X8-6b2aU, costing $847. The final total with a $14.99 shipping fee and tax is $919.
+Expected arrival in 70758 is by October 08. John Johnson can be reached at IlPzq@example.com, 003-591-3429.
+            
+            SANITIZED-QUESTION: When will my Garmin watch be delivered?
+            
+            SANITIZED-ANSWER: October 08.
+            
+            DESANITIZED-ANSWER: Oct 10th.
+            
+            EVALUATION: 1
+            
+            ----
+            [7.23] CONTEXT:
+            Riley's BigMart order BM900900 included a 'Garmin Fenix 6S Pro Solar' watch. The product ID
+is GM-F6SPS, costing $849.99. The final total with a $14.99 shipping fee and tax is $918.48.
+Expected arrival in 10011 is by Oct 10th. Riley can be reached at riley@example.com, 646-555-1234.
+
+            
+            QUESTION: What's the product ID of the Garmin Fenix 6S Pro Solar I ordered?
+
+            
+            ANSWER:  The product ID of the Garmin Fenix 6S Pro Solar you ordered is GM-F6SPS.
+            
+            SANITIZED-CONTEXT:
+            John Johnson's BigMart order x4fCUtlT included a 'Garmin Fenix 6S Pro Solar' watch. The product ID
+is X8-6b2aU, costing $847. The final total with a $14.99 shipping fee and tax is $919.
+Expected arrival in 70758 is by October 08. John Johnson can be reached at IlPzq@example.com, 003-591-3429.
+            
+            SANITIZED-QUESTION: What's the product ID of the Garmin Fenix 6S Pro Solar I ordered?
+            
+            SANITIZED-ANSWER: X8-6b2aU
+            
+            DESANITIZED-ANSWER: GM-F6SPS
+            
+            EVALUATION: 1
+            
+            ----
+            [8.24] CONTEXT:
+            Sam ordered a 'Peloton Bike' on BigMart, order number BM101010. The bike, ID PT-BIKE, cost
+$1,895.00. With $39.00 shipping and tax, the total was $2,046.35. It's expected to arrive at
+zip 94110 by Nov 11th. Contact: sam@example.com, 415-992-3344.
+
+            
+            QUESTION: What is the total amount I paid for the Peloton Bike?
+
+            
+            ANSWER:  The total amount you paid for the Peloton Bike was $2,046.35.
+            
+            SANITIZED-CONTEXT:
+            John Abramson ordered a 'Peloton Bike' on BigMart, order number WmMAl9Xs. The bike, ID 4I-Hoiq, cost
+$1,894. With $39 shipping and tax, the total was $2,062. It's expected to arrive at
+zip 90462 by November 09. Contact: rEw@example.com, 043-512-6317.
+            
+            SANITIZED-QUESTION: What is the total amount I paid for the Peloton Bike?
+            
+            SANITIZED-ANSWER: $2,062
+            
+            DESANITIZED-ANSWER: $2,046.35
+            
+            EVALUATION: 1
+            
+            ----
+            [8.25] CONTEXT:
+            Sam ordered a 'Peloton Bike' on BigMart, order number BM101010. The bike, ID PT-BIKE, cost
+$1,895.00. With $39.00 shipping and tax, the total was $2,046.35. It's expected to arrive at
+zip 94110 by Nov 11th. Contact: sam@example.com, 415-992-3344.
+
+            
+            QUESTION: When should I expect the delivery of my Peloton Bike?
+
+            
+            ANSWER:  You should expect the delivery of your Peloton Bike by Nov 11th.
+            
+            SANITIZED-CONTEXT:
+            John Abramson ordered a 'Peloton Bike' on BigMart, order number WmMAl9Xs. The bike, ID 4I-Hoiq, cost
+$1,894. With $39 shipping and tax, the total was $2,062. It's expected to arrive at
+zip 90462 by November 09. Contact: rEw@example.com, 043-512-6317.
+            
+            SANITIZED-QUESTION: When should I expect the delivery of my Peloton Bike?
+            
+            SANITIZED-ANSWER: November 09.
+            
+            DESANITIZED-ANSWER: Nov 11th.
+            
+            EVALUATION: 1
+            
+            ----
+            [8.26] CONTEXT:
+            Sam ordered a 'Peloton Bike' on BigMart, order number BM101010. The bike, ID PT-BIKE, cost
+$1,895.00. With $39.00 shipping and tax, the total was $2,046.35. It's expected to arrive at
+zip 94110 by Nov 11th. Contact: sam@example.com, 415-992-3344.
+
+            
+            QUESTION: Can you tell me the product ID of the Peloton Bike I purchased?
+
+            
+            ANSWER:  The product ID of the Peloton Bike you purchased is PT-BIKE.
+            
+            SANITIZED-CONTEXT:
+            John Abramson ordered a 'Peloton Bike' on BigMart, order number WmMAl9Xs. The bike, ID 4I-Hoiq, cost
+$1,894. With $39 shipping and tax, the total was $2,062. It's expected to arrive at
+zip 90462 by November 09. Contact: rEw@example.com, 043-512-6317.
+            
+            SANITIZED-QUESTION: Can you tell me the product ID of the Peloton Bike I purchased?
+            
+            SANITIZED-ANSWER: 4I-Hoiq
+            
+            DESANITIZED-ANSWER: PT-BIKE
+            
+            EVALUATION: 1
+            
+            ----
+            [9.27] CONTEXT:
+            Bailey made a purchase of 'Sony WH-1000XM4 Wireless Headphones' at BigMart, order BM111111.
+The headphones, ID SN-WH1000XM4, were $348.00. After tax and a $5.00 shipping fee, the total
+is $375.60. Delivery to 80202 is expected by Dec 12th. Contact: bailey@example.com, 720-555-6789.
+
+            
+            QUESTION: How much did I pay in total for the Sony headphones?
+
+            
+            ANSWER:  You paid $375.60 in total for the Sony headphones.
+            
+            SANITIZED-CONTEXT:
+            John Abramson made a purchase of 'Sony WH-1000XM4 Wireless Headphones' at BigMart, order nAHnVEHr.
+The headphones, ID rC-A6lgJCORE, were $347. After tax and a $5.00 shipping fee, the total
+is $375. Delivery to 32283 is expected by November 09. Contact: 9s3T48@example.com, 577-280-4382.
+            
+            SANITIZED-QUESTION: How much did I pay in total for the Sony headphones?
+            
+            SANITIZED-ANSWER: $375
+            
+            DESANITIZED-ANSWER: $375.60
+            
+            EVALUATION: 1
+            
+            ----
+            [9.28] CONTEXT:
+            Bailey made a purchase of 'Sony WH-1000XM4 Wireless Headphones' at BigMart, order BM111111.
+The headphones, ID SN-WH1000XM4, were $348.00. After tax and a $5.00 shipping fee, the total
+is $375.60. Delivery to 80202 is expected by Dec 12th. Contact: bailey@example.com, 720-555-6789.
+
+            
+            QUESTION: When can I expect my headphones to be delivered?
+
+            
+            ANSWER:  You can expect your headphones to be delivered by Dec 12th.
+            
+            SANITIZED-CONTEXT:
+            John Abramson made a purchase of 'Sony WH-1000XM4 Wireless Headphones' at BigMart, order nAHnVEHr.
+The headphones, ID rC-A6lgJCORE, were $347. After tax and a $5.00 shipping fee, the total
+is $375. Delivery to 32283 is expected by November 09. Contact: 9s3T48@example.com, 577-280-4382.
+            
+            SANITIZED-QUESTION: When can I expect my headphones to be delivered?
+            
+            SANITIZED-ANSWER: November 09.
+            
+            DESANITIZED-ANSWER: Dec 12th.
+            
+            EVALUATION: 1
+            
+            ----
+            [9.29] CONTEXT:
+            Bailey made a purchase of 'Sony WH-1000XM4 Wireless Headphones' at BigMart, order BM111111.
+The headphones, ID SN-WH1000XM4, were $348.00. After tax and a $5.00 shipping fee, the total
+is $375.60. Delivery to 80202 is expected by Dec 12th. Contact: bailey@example.com, 720-555-6789.
+
+            
+            QUESTION: What is the product ID for the Sony WH-1000XM4 I ordered?
+
+            
+            ANSWER:  The product ID for the Sony WH-1000XM4 you ordered is SN-WH1000XM4.
+            
+            SANITIZED-CONTEXT:
+            John Abramson made a purchase of 'Sony WH-1000XM4 Wireless Headphones' at BigMart, order nAHnVEHr.
+The headphones, ID rC-A6lgJCORE, were $347. After tax and a $5.00 shipping fee, the total
+is $375. Delivery to 32283 is expected by November 09. Contact: 9s3T48@example.com, 577-280-4382.
+            
+            SANITIZED-QUESTION: What is the product ID for the Sony WH-1000XM4 I ordered?
+            
+            SANITIZED-ANSWER: rC-A6lgJCORE
+            
+            DESANITIZED-ANSWER: SN-WH1000XM4
+            
+            EVALUATION: 1
+            

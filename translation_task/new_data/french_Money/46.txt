@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01FxnWk7WAqQ3vzjx2D9KKst","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Here is the identified 'Money' from the given text, formatted as a list:\n\n- ¥307,529.62"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":74,"output_tokens":31}}

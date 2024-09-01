@@ -1,0 +1,18 @@
+P: Robin ordered a 'GoPro HERO9 Black' from BigMart, order number BM200200. The camera, ID GP-H9B, cost $399.00. With shipping and tax, the total was $435.59. It will be shipped to 80203, and is expected to arrive by Mar 20th. Robin can be reached at robin@example.com or 303-402-1234.
+
+Q: What's the cost of my GoPro HERO9 Black, not including shipping?
+A: The cost of your GoPro HERO9 Black was $399.00, not including shipping.
+Q: When will my GoPro camera arrive?
+A: Your GoPro camera will arrive by Mar 20th.
+Q: What is the product ID of my GoPro camera?
+A: The product ID of your GoPro camera is GP-H9B.
+
+
+P: Avery purchased a 'Microsoft Surface Pro 7' on BigMart, order BM300300. The product ID is MS-SP7, priced at $749.99. The final amount with tax and $9.99 shipping is $810.49. Delivery to 10024 is expected by Apr 10th. Avery’s contact details are avery@example.com and 212-555-6789.
+
+Q: How much did I pay in total for the Surface Pro 7 including shipping?
+A: Your total payment for the Surface Pro 7 including shipping was $810.49.
+Q: What is the estimated delivery date for my Microsoft Surface Pro 7?
+A: The estimated delivery date for your Microsoft Surface Pro 7 is by Apr 10th.
+Q: What's the product ID of the item I ordered?
+A: The product ID of the item you ordered is MS-SP7.

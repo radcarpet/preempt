@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01Spwgr5sTpCj5kujPCQxT4u","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Voici la liste des éléments identifiés comme 'Money' dans le texte :\n\n- ₫0.7643m"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":108,"output_tokens":34}}

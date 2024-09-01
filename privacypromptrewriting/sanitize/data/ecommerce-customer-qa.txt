@@ -1,0 +1,98 @@
+P: Jamie has completed an order BM123456 at BigMart for an 'Instant Pot Duo 7-in-1 Electric Pressure Cooker'. The item ID is IP-DUO60, with a listed price of $89.95. The total charge with tax and a $5.99 shipping fee is $96.94. The package is set to ship to zip code 15237 and should arrive by March 10th.
+
+Q: What was the total cost of my Instant Pot order with shipping?
+A: Your Instant Pot order's total cost with shipping was $96.94.
+Q: What is the brand of the electric pressure cooker I ordered?
+A: The brand of the electric pressure cooker you ordered is Instant Pot.
+Q: Can you confirm the product ID for my recent purchase?
+A: The product ID for your recent purchase is IP-DUO60.
+
+
+P: Riley's BigMart purchase, order BM223344, included a 'Keurig K-Classic Coffee Maker'. The product ID is KG-KCM, priced at $79.99. After adding a $7.99 shipping fee and taxes, the total came to $94.23. The coffee maker is heading to zip 90210 and is expected between April 1st and April 6th.
+
+Q: How much was shipping for my Keurig Coffee Maker?
+A: Shipping for your Keurig Coffee Maker was $7.99.
+Q: When is my coffee maker expected to arrive?
+A: Your coffee maker is expected to arrive between April 1st and April 6th.
+Q: I forgot, what did I order from BigMart recently?
+A: You ordered a Keurig K-Classic Coffee Maker from BigMart recently.
+
+
+P: Casey just made a purchase on BigMart, order number BM334455. They selected the 'Samsung QLED 4K Q60 Series Smart TV' with the ID SM-Q60T for $897.99. The final total after an $8.99 shipping charge and sales tax is $967.56. This item will be shipped to zip code 15090, with an expected delivery between May 18th and May 23rd.
+
+Q: What was the total amount I paid for my Samsung TV, including shipping?
+A: The total amount you paid for your Samsung TV, including shipping, was $967.56.
+Q: What are the expected delivery dates for my TV?
+A: The expected delivery dates for your TV are between May 18th and May 23rd.
+Q: What brand is the smart TV I've ordered?
+A: The brand of the smart TV you've ordered is Samsung.
+
+
+P: Taylor placed an order BM445566 for 'Beats by Dre Studio3 Wireless Headphones' on BigMart. The price was $349.95 and the product ID is BD-S3WH. A $5.00 shipping cost was applied, with the total amounting to $377.45 after tax. Scheduled to arrive at zip 08550 by July 5th, these headphones are in high demand.
+
+Q: What's the shipping cost for my Beats headphones?
+A: The shipping cost for your Beats headphones was $5.00.
+Q: When can I expect my headphones to arrive?
+A: You can expect your headphones to arrive by July 5th.
+Q: Can you remind me what I ordered that's arriving by July 5th?
+A: You ordered Beats by Dre Studio3 Wireless Headphones that are arriving by July 5th.
+
+
+P: Alex made a BigMart order BM556677 for an 'Apple MacBook Pro 13-inch'. The product ID is AP-MBP13, costing $1,299.00. Including tax, but with free shipping, Alex's total charge was $1,403.92. The MacBook is on its way to 94103, expected to land between October 20th and October 25th.
+
+Q: Did my MacBook Pro order come with any shipping fees?
+A: No, your MacBook Pro order came with free shipping.
+Q: What is the estimated delivery window for my MacBook?
+A: The estimated delivery window for your MacBook is between October 20th and October 25th.
+Q: I forgot the model of the Apple laptop I purchased, can you tell me?
+A: You purchased the Apple MacBook Pro 13-inch model.
+
+
+P: Morgan recently ordered a 'Nikon D3500 DSLR Camera' from BigMart, order BM667788. Listed at $496.95 with an ID of NK-D3500, the final price with $10.00 shipping and taxes is $540.30. The camera is set to ship to 78701 and should be received by August 15th.
+
+Q: What was my total cost for the Nikon camera including shipping?
+A: Your total cost for the Nikon camera including shipping was $540.30.
+Q: What's the expected delivery date for my order?
+A: The expected delivery date for your order is by August 15th.
+Q: Can you tell me the product ID for the camera I ordered?
+A: The product ID for the camera you ordered is NK-D3500.
+
+
+P: Jordan's BigMart order BM778899 was for a 'Fitbit Versa 2 Health and Fitness Smartwatch'. The price was $179.95, and the product ID is FB-V2. After a $3.99 shipping fee and taxes, the total was $194.84. Shipping to zip 90245, Jordan can expect delivery from September 9th to September 14th.
+
+Q: What's the total I paid for my Fitbit smartwatch with the shipping fee?
+A: The total you paid for your Fitbit smartwatch with the shipping fee was $194.84.
+Q: When should I expect my Fitbit order to arrive?
+A: You should expect your Fitbit order to arrive from September 9th to September 14th.
+Q: What did I order that's arriving between September 9th and 14th?
+A: You ordered a Fitbit Versa 2 Health and Fitness Smartwatch.
+
+
+P: Sam's latest order on BigMart, BM889900, was for a 'Dyson V11 Torque Drive Cordless Vacuum Cleaner'. They paid $699.99 for the product with ID DY-V11TD, and the total with $15.00 shipping and tax is $765.99. The vacuum is on its way to zip code 10023, with a delivery forecast from November 5th to November 10th.
+
+Q: How much did I pay for shipping my Dyson vacuum?
+A: You paid $15.00 for shipping your Dyson vacuum.
+Q: When will my Dyson V11 vacuum be delivered?
+A: Your Dyson V11 vacuum will be delivered from November 5th to November 10th.
+Q: What's the model of the vacuum I bought?
+A: The model of the vacuum you bought is the Dyson V11 Torque Drive Cordless Vacuum Cleaner.
+
+
+P: Devon's order BM990011 at BigMart included a 'YETI Tundra 45 Cooler'. The product ID for this item is YT-T45C, and it was priced at $299.99. After adding taxes and a shipping charge of $14.99, Devon’s total spend was $340.98. The cooler is destined for zip 60607, with the expected arrival time from December 12th to December 18th.
+
+Q: What's the total cost with shipping for the YETI cooler I ordered?
+A: The total cost with shipping for the YETI cooler you ordered was $340.98.
+Q: Can you provide the delivery dates for my recent BigMart purchase?
+A: The delivery dates for your recent BigMart purchase are from December 12th to December 18th.
+Q: I'm not sure what I bought recently, can you help me identify it?
+A: You recently bought a YETI Tundra 45 Cooler.
+
+
+P: Bailey's BigMart transaction, BM101112, was for a 'Bose SoundLink Bluetooth Speaker'. The speaker, with an ID of BS-SLBS, was listed at $129.00. A $6.99 shipping fee was added, and with tax, the total came to $146.92. Shipping to zip code 80202, the speaker's estimated delivery is from January 22nd to January 27th.
+
+Q: What was my total charge for the Bose speaker, including the shipping fee?
+A: Your total charge for the Bose speaker, including the shipping fee, was $146.92.
+Q: When will the speaker I ordered arrive?
+A: The speaker you ordered will arrive from January 22nd to January 27th.
+Q: What item comes with the product ID BS-SLBS?
+A: The item that comes with the product ID BS-SLBS is the Bose SoundLink Bluetooth Speaker.

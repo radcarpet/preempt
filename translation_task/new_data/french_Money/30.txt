@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01FZR92ohNH1MnF2aeGCkvzT","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Voici la liste des montants d'argent identifiés dans le texte :\n\n- 339k Swedish Krona"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":73,"output_tokens":31}}

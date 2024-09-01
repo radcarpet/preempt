@@ -1,0 +1,571 @@
+
+            ----
+            [0] CONTEXT:
+             Jamie has completed an order BM123456 at BigMart for an 'Instant Pot Duo 7-in-1 Electric Pressure Cooker'. The item ID is IP-DUO60, with a listed price of $89.95. The total charge with tax and a $5.99 shipping fee is $96.94. The package is set to ship to zip code 15237 and should arrive by March 10th.
+            
+            QUESTION:  What was the total cost of my Instant Pot order with shipping?
+            
+            ANSWER:  Your Instant Pot order's total cost with shipping was $96.94.
+            
+            SANITIZED-CONTEXT:
+            John Abramson has completed an order BM123456 at BigMart for an 'Instant Pot Duo 7-in-1 Electric Pressure Cooker'. The item ID is IP-DUO60, with a listed price of $88.87. The total charge with tax and a $5.99 shipping fee is $95.42. The package is set to ship to zip code 85602 and should arrive by March 10th.
+            
+            SANITIZED-QUESTION: What was the total cost of my Instant Pot order with shipping?
+            
+            SANITIZED-ANSWER: Sure, I'd be happy to help! The total cost of your Instant Pot order with shipping is $95.42.
+            
+            DESANITIZED-ANSWER: Sure, I'd be happy to help! The total cost of your Instant Pot order with shipping is $96.94.
+            
+            EVALUATION: 1
+            
+            ----
+            [1] CONTEXT:
+             Jamie has completed an order BM123456 at BigMart for an 'Instant Pot Duo 7-in-1 Electric Pressure Cooker'. The item ID is IP-DUO60, with a listed price of $89.95. The total charge with tax and a $5.99 shipping fee is $96.94. The package is set to ship to zip code 15237 and should arrive by March 10th.
+            
+            QUESTION:  What is the brand of the electric pressure cooker I ordered?
+            
+            ANSWER:  The brand of the electric pressure cooker you ordered is Instant Pot.
+            
+            SANITIZED-CONTEXT:
+            John Abramson has completed an order BM123456 at BigMart for an 'Instant Pot Duo 7-in-1 Electric Pressure Cooker'. The item ID is IP-DUO60, with a listed price of $88.87. The total charge with tax and a $5.99 shipping fee is $95.42. The package is set to ship to zip code 85602 and should arrive by March 10th.
+            
+            SANITIZED-QUESTION: What is the brand of the electric pressure cooker I ordered?
+            
+            SANITIZED-ANSWER: Sure, I'd be happy to help! The brand of the electric pressure cooker you ordered is "Instant Pot".
+            
+            DESANITIZED-ANSWER: Sure, I'd be happy to help! The brand of the electric pressure cooker you ordered is "Instant Pot".
+            
+            EVALUATION: 1
+            
+            ----
+            [2] CONTEXT:
+             Jamie has completed an order BM123456 at BigMart for an 'Instant Pot Duo 7-in-1 Electric Pressure Cooker'. The item ID is IP-DUO60, with a listed price of $89.95. The total charge with tax and a $5.99 shipping fee is $96.94. The package is set to ship to zip code 15237 and should arrive by March 10th.
+            
+            QUESTION:  Can you confirm the product ID for my recent purchase?
+            
+            ANSWER:  The product ID for your recent purchase is IP-DUO60.
+            
+            SANITIZED-CONTEXT:
+            John Abramson has completed an order BM123456 at BigMart for an 'Instant Pot Duo 7-in-1 Electric Pressure Cooker'. The item ID is IP-DUO60, with a listed price of $88.87. The total charge with tax and a $5.99 shipping fee is $95.42. The package is set to ship to zip code 85602 and should arrive by March 10th.
+            
+            SANITIZED-QUESTION: Can you confirm the product ID for my recent purchase?
+            
+            SANITIZED-ANSWER: Of course! The product ID for your recent purchase is IP-DUO60.
+            
+            DESANITIZED-ANSWER: Of course! The product ID for your recent purchase is IP-DUO60.
+            
+            EVALUATION: 1
+            
+            ----
+            [3] CONTEXT:
+             Riley's BigMart purchase, order BM223344, included a 'Keurig K-Classic Coffee Maker'. The product ID is KG-KCM, priced at $79.99. After adding a $7.99 shipping fee and taxes, the total came to $94.23. The coffee maker is heading to zip 90210 and is expected between April 1st and April 6th.
+            
+            QUESTION:  How much was shipping for my Keurig Coffee Maker?
+            
+            ANSWER:  Shipping for your Keurig Coffee Maker was $7.99.
+            
+            SANITIZED-CONTEXT:
+            John Abramson's BigMart purchase, order BM223344, included a 'Keurig K-Classic Coffee Maker'. The product ID is KG-KCM, priced at $79. After adding a $7.01 shipping fee and taxes, the total came to $94.04. The coffee maker is heading to zip 59241 and is expected between April 1st and April 6th.
+            
+            SANITIZED-QUESTION: How much was shipping for my Keurig Coffee Maker?
+            
+            SANITIZED-ANSWER: The shipping cost for your Keurig K-Classic Coffee Maker was $7.01.
+            
+            DESANITIZED-ANSWER: The shipping cost for your Keurig K-Classic Coffee Maker was $7.99.
+            
+            EVALUATION: 1
+            
+            ----
+            [4] CONTEXT:
+             Riley's BigMart purchase, order BM223344, included a 'Keurig K-Classic Coffee Maker'. The product ID is KG-KCM, priced at $79.99. After adding a $7.99 shipping fee and taxes, the total came to $94.23. The coffee maker is heading to zip 90210 and is expected between April 1st and April 6th.
+            
+            QUESTION:  When is my coffee maker expected to arrive?
+            
+            ANSWER:  Your coffee maker is expected to arrive between April 1st and April 6th.
+            
+            SANITIZED-CONTEXT:
+            John Abramson's BigMart purchase, order BM223344, included a 'Keurig K-Classic Coffee Maker'. The product ID is KG-KCM, priced at $79. After adding a $7.01 shipping fee and taxes, the total came to $94.04. The coffee maker is heading to zip 59241 and is expected between April 1st and April 6th.
+            
+            SANITIZED-QUESTION: When is my coffee maker expected to arrive?
+            
+            SANITIZED-ANSWER: Your coffee maker is expected to arrive between April 1st and April 6th, based on the information provided in the context.
+            
+            DESANITIZED-ANSWER: Your coffee maker is expected to arrive between April 1st and April 6th, based on the information provided in the context.
+            
+            EVALUATION: 1
+            
+            ----
+            [5] CONTEXT:
+             Riley's BigMart purchase, order BM223344, included a 'Keurig K-Classic Coffee Maker'. The product ID is KG-KCM, priced at $79.99. After adding a $7.99 shipping fee and taxes, the total came to $94.23. The coffee maker is heading to zip 90210 and is expected between April 1st and April 6th.
+            
+            QUESTION:  I forgot, what did I order from BigMart recently?
+            
+            ANSWER:  You ordered a Keurig K-Classic Coffee Maker from BigMart recently.
+            
+            SANITIZED-CONTEXT:
+            John Abramson's BigMart purchase, order BM223344, included a 'Keurig K-Classic Coffee Maker'. The product ID is KG-KCM, priced at $79. After adding a $7.01 shipping fee and taxes, the total came to $94.04. The coffee maker is heading to zip 59241 and is expected between April 1st and April 6th.
+            
+            SANITIZED-QUESTION: I forgot, what did I order from BigMart recently?
+            
+            SANITIZED-ANSWER: You ordered a Keurig K-Classic Coffee Maker with the product ID KG-KCM, which had a total cost of $94.04 after shipping and taxes.
+            
+            DESANITIZED-ANSWER: You ordered a Keurig K-Classic Coffee Maker with the product ID KG-KCM, which had a total cost of $94.23 after shipping and taxes.
+            
+            EVALUATION: 1
+            
+            ----
+            [6] CONTEXT:
+             Casey just made a purchase on BigMart, order number BM334455. They selected the 'Samsung QLED 4K Q60 Series Smart TV' with the ID SM-Q60T for $897.99. The final total after an $8.99 shipping charge and sales tax is $967.56. This item will be shipped to zip code 15090, with an expected delivery between May 18th and May 23rd.
+            
+            QUESTION:  What was the total amount I paid for my Samsung TV, including shipping?
+            
+            ANSWER:  The total amount you paid for your Samsung TV, including shipping, was $967.56.
+            
+            SANITIZED-CONTEXT:
+            John Abramson just made a purchase on BigMart, order number BM334455. They selected the 'Samsung QLED 4K Q60 Series Smart TV' with the ID SM-Q60T for $898.39. The final total after an $8.99 shipping charge and sales tax is $965.08. This item will be shipped to zip code 43184, with an expected delivery between May 18th and May 23rd.
+            
+            SANITIZED-QUESTION: What was the total amount I paid for my Samsung TV, including shipping?
+            
+            SANITIZED-ANSWER: The total amount you paid for your Samsung TV, including shipping, is $965.08.
+            
+            DESANITIZED-ANSWER: The total amount you paid for your Samsung TV, including shipping, is $967.56.
+            
+            EVALUATION: 1
+            
+            ----
+            [7] CONTEXT:
+             Casey just made a purchase on BigMart, order number BM334455. They selected the 'Samsung QLED 4K Q60 Series Smart TV' with the ID SM-Q60T for $897.99. The final total after an $8.99 shipping charge and sales tax is $967.56. This item will be shipped to zip code 15090, with an expected delivery between May 18th and May 23rd.
+            
+            QUESTION:  What are the expected delivery dates for my TV?
+            
+            ANSWER:  The expected delivery dates for your TV are between May 18th and May 23rd.
+            
+            SANITIZED-CONTEXT:
+            John Abramson just made a purchase on BigMart, order number BM334455. They selected the 'Samsung QLED 4K Q60 Series Smart TV' with the ID SM-Q60T for $898.39. The final total after an $8.99 shipping charge and sales tax is $965.08. This item will be shipped to zip code 43184, with an expected delivery between May 18th and May 23rd.
+            
+            SANITIZED-QUESTION: What are the expected delivery dates for my TV?
+            
+            SANITIZED-ANSWER: Based on the information provided in the context, the expected delivery dates for the TV are between May 18th and May 23rd, shipped to zip code 43184.
+            
+            DESANITIZED-ANSWER: Based on the information provided in the context, the expected delivery dates for the TV are between May 18th and May 23rd, shipped to zip code 15090.
+            
+            EVALUATION: 1
+            
+            ----
+            [8] CONTEXT:
+             Casey just made a purchase on BigMart, order number BM334455. They selected the 'Samsung QLED 4K Q60 Series Smart TV' with the ID SM-Q60T for $897.99. The final total after an $8.99 shipping charge and sales tax is $967.56. This item will be shipped to zip code 15090, with an expected delivery between May 18th and May 23rd.
+            
+            QUESTION:  What brand is the smart TV I've ordered?
+            
+            ANSWER:  The brand of the smart TV you've ordered is Samsung.
+            
+            SANITIZED-CONTEXT:
+            John Abramson just made a purchase on BigMart, order number BM334455. They selected the 'Samsung QLED 4K Q60 Series Smart TV' with the ID SM-Q60T for $898.39. The final total after an $8.99 shipping charge and sales tax is $965.08. This item will be shipped to zip code 43184, with an expected delivery between May 18th and May 23rd.
+            
+            SANITIZED-QUESTION: What brand is the smart TV I've ordered?
+            
+            SANITIZED-ANSWER: Sure, I'd be happy to help! The brand of the smart TV you've ordered is Samsung.
+            
+            DESANITIZED-ANSWER: Sure, I'd be happy to help! The brand of the smart TV you've ordered is Samsung.
+            
+            EVALUATION: 1
+            
+            ----
+            [9] CONTEXT:
+             Taylor placed an order BM445566 for 'Beats by Dre Studio3 Wireless Headphones' on BigMart. The price was $349.95 and the product ID is BD-S3WH. A $5.00 shipping cost was applied, with the total amounting to $377.45 after tax. Scheduled to arrive at zip 08550 by July 5th, these headphones are in high demand.
+            
+            QUESTION:  What's the shipping cost for my Beats headphones?
+            
+            ANSWER:  The shipping cost for your Beats headphones was $5.00.
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson placed an order BM445566 for 'Beats by Dre Studio3 Wireless Headphones' on BigMart. The price was $348.8 and the product ID is BD-S3WH. A $4.97 shipping cost was applied, with the total amounting to $375.86 after tax. Scheduled to arrive at zip 63055 by July 5th, these headphones are in high demand.
+            
+            SANITIZED-QUESTION: What's the shipping cost for my Beats headphones?
+            
+            SANITIZED-ANSWER: Shipping cost for your Beats headphones is $4.97.
+            
+            DESANITIZED-ANSWER: Shipping cost for your Beats headphones is $5.00.
+            
+            EVALUATION: 1
+            
+            ----
+            [10] CONTEXT:
+             Taylor placed an order BM445566 for 'Beats by Dre Studio3 Wireless Headphones' on BigMart. The price was $349.95 and the product ID is BD-S3WH. A $5.00 shipping cost was applied, with the total amounting to $377.45 after tax. Scheduled to arrive at zip 08550 by July 5th, these headphones are in high demand.
+            
+            QUESTION:  When can I expect my headphones to arrive?
+            
+            ANSWER:  You can expect your headphones to arrive by July 5th.
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson placed an order BM445566 for 'Beats by Dre Studio3 Wireless Headphones' on BigMart. The price was $348.8 and the product ID is BD-S3WH. A $4.97 shipping cost was applied, with the total amounting to $375.86 after tax. Scheduled to arrive at zip 63055 by July 5th, these headphones are in high demand.
+            
+            SANITIZED-QUESTION: When can I expect my headphones to arrive?
+            
+            SANITIZED-ANSWER: Based on the information provided, you can expect your headphones to arrive at zip code 63055 by July 5th.
+            
+            DESANITIZED-ANSWER: Based on the information provided, you can expect your headphones to arrive at zip code 08550 by July 5th.
+            
+            EVALUATION: 1
+            
+            ----
+            [11] CONTEXT:
+             Taylor placed an order BM445566 for 'Beats by Dre Studio3 Wireless Headphones' on BigMart. The price was $349.95 and the product ID is BD-S3WH. A $5.00 shipping cost was applied, with the total amounting to $377.45 after tax. Scheduled to arrive at zip 08550 by July 5th, these headphones are in high demand.
+            
+            QUESTION:  Can you remind me what I ordered that's arriving by July 5th?
+            
+            ANSWER:  You ordered Beats by Dre Studio3 Wireless Headphones that are arriving by July 5th.
+            
+            SANITIZED-CONTEXT:
+            Alex Abramson placed an order BM445566 for 'Beats by Dre Studio3 Wireless Headphones' on BigMart. The price was $348.8 and the product ID is BD-S3WH. A $4.97 shipping cost was applied, with the total amounting to $375.86 after tax. Scheduled to arrive at zip 63055 by July 5th, these headphones are in high demand.
+            
+            SANITIZED-QUESTION: Can you remind me what I ordered that's arriving by July 5th?
+            
+            SANITIZED-ANSWER: Sure! You ordered Beats by Dre Studio3 Wireless Headphones with the product ID BD-S3WH, which is scheduled to arrive at zip code 63055 by July 5th.
+            
+            DESANITIZED-ANSWER: Sure! You ordered Beats by Dre Studio3 Wireless Headphones with the product ID BD-S3WH, which is scheduled to arrive at zip code 08550 by July 5th.
+            
+            EVALUATION: 1
+            
+            ----
+            [12] CONTEXT:
+             Alex made a BigMart order BM556677 for an 'Apple MacBook Pro 13-inch'. The product ID is AP-MBP13, costing $1,299.00. Including tax, but with free shipping, Alex's total charge was $1,403.92. The MacBook is on its way to 94103, expected to land between October 20th and October 25th.
+            
+            QUESTION:  Did my MacBook Pro order come with any shipping fees?
+            
+            ANSWER:  No, your MacBook Pro order came with free shipping.
+            
+            SANITIZED-CONTEXT:
+            John Johnson made a BigMart order BM556677 for an 'Apple MacBook Pro 13-inch'. The product ID is AP-MBP13, costing $1,299.79. Including tax, but with free shipping, John Johnson's total charge was $1,402.09. The MacBook is on its way to 89419, expected to land between October 20th and October 25th.
+            
+            SANITIZED-QUESTION: Did my MacBook Pro order come with any shipping fees?
+            
+            SANITIZED-ANSWER: Yes, your MacBook Pro order came with free shipping, so you did not pay any shipping fees.
+            
+            DESANITIZED-ANSWER: Yes, your MacBook Pro order came with free shipping, so you did not pay any shipping fees.
+            
+            EVALUATION: 1
+            
+            ----
+            [13] CONTEXT:
+             Alex made a BigMart order BM556677 for an 'Apple MacBook Pro 13-inch'. The product ID is AP-MBP13, costing $1,299.00. Including tax, but with free shipping, Alex's total charge was $1,403.92. The MacBook is on its way to 94103, expected to land between October 20th and October 25th.
+            
+            QUESTION:  What is the estimated delivery window for my MacBook?
+            
+            ANSWER:  The estimated delivery window for your MacBook is between October 20th and October 25th.
+            
+            SANITIZED-CONTEXT:
+            John Johnson made a BigMart order BM556677 for an 'Apple MacBook Pro 13-inch'. The product ID is AP-MBP13, costing $1,299.79. Including tax, but with free shipping, John Johnson's total charge was $1,402.09. The MacBook is on its way to 89419, expected to land between October 20th and October 25th.
+            
+            SANITIZED-QUESTION: What is the estimated delivery window for my MacBook?
+            
+            SANITIZED-ANSWER: The estimated delivery window for your MacBook is between October 20th and October 25th.
+            
+            DESANITIZED-ANSWER: The estimated delivery window for your MacBook is between October 20th and October 25th.
+            
+            EVALUATION: 1
+            
+            ----
+            [14] CONTEXT:
+             Alex made a BigMart order BM556677 for an 'Apple MacBook Pro 13-inch'. The product ID is AP-MBP13, costing $1,299.00. Including tax, but with free shipping, Alex's total charge was $1,403.92. The MacBook is on its way to 94103, expected to land between October 20th and October 25th.
+            
+            QUESTION:  I forgot the model of the Apple laptop I purchased, can you tell me?
+            
+            ANSWER:  You purchased the Apple MacBook Pro 13-inch model.
+            
+            SANITIZED-CONTEXT:
+            John Johnson made a BigMart order BM556677 for an 'Apple MacBook Pro 13-inch'. The product ID is AP-MBP13, costing $1,299.79. Including tax, but with free shipping, John Johnson's total charge was $1,402.09. The MacBook is on its way to 89419, expected to land between October 20th and October 25th.
+            
+            SANITIZED-QUESTION: I forgot the model of the Apple laptop I purchased, can you tell me?
+            
+            SANITIZED-ANSWER: Of course! The model of the Apple laptop you purchased is the MacBook Pro 13-inch.
+            
+            DESANITIZED-ANSWER: Of course! The model of the Apple laptop you purchased is the MacBook Pro 13-inch.
+            
+            EVALUATION: 1
+            
+            ----
+            [15] CONTEXT:
+             Morgan recently ordered a 'Nikon D3500 DSLR Camera' from BigMart, order BM667788. Listed at $496.95 with an ID of NK-D3500, the final price with $10.00 shipping and taxes is $540.30. The camera is set to ship to 78701 and should be received by August 15th.
+            
+            QUESTION:  What was my total cost for the Nikon camera including shipping?
+            
+            ANSWER:  Your total cost for the Nikon camera including shipping was $540.30.
+            
+            SANITIZED-CONTEXT:
+            John Abramson recently ordered a 'Nikon D3500 DSLR Camera' from BigMart, order BM667788. Listed at $498.46 with an ID of NK-D3500, the final price with $10.00 shipping and taxes is $540. The camera is set to ship to 03006 and should be received by August 15th.
+            
+            SANITIZED-QUESTION: What was my total cost for the Nikon camera including shipping?
+            
+            SANITIZED-ANSWER: Your total cost for the Nikon camera, including shipping, is $540.
+            
+            DESANITIZED-ANSWER: Your total cost for the Nikon camera, including shipping, is $540.30.
+            
+            EVALUATION: 1
+            
+            ----
+            [16] CONTEXT:
+             Morgan recently ordered a 'Nikon D3500 DSLR Camera' from BigMart, order BM667788. Listed at $496.95 with an ID of NK-D3500, the final price with $10.00 shipping and taxes is $540.30. The camera is set to ship to 78701 and should be received by August 15th.
+            
+            QUESTION:  What's the expected delivery date for my order?
+            
+            ANSWER:  The expected delivery date for your order is by August 15th.
+            
+            SANITIZED-CONTEXT:
+            John Abramson recently ordered a 'Nikon D3500 DSLR Camera' from BigMart, order BM667788. Listed at $498.46 with an ID of NK-D3500, the final price with $10.00 shipping and taxes is $540. The camera is set to ship to 03006 and should be received by August 15th.
+            
+            SANITIZED-QUESTION: What's the expected delivery date for my order?
+            
+            SANITIZED-ANSWER: Based on the context provided, the expected delivery date for your order is August 15th.
+            
+            DESANITIZED-ANSWER: Based on the context provided, the expected delivery date for your order is August 15th.
+            
+            EVALUATION: 1
+            
+            ----
+            [17] CONTEXT:
+             Morgan recently ordered a 'Nikon D3500 DSLR Camera' from BigMart, order BM667788. Listed at $496.95 with an ID of NK-D3500, the final price with $10.00 shipping and taxes is $540.30. The camera is set to ship to 78701 and should be received by August 15th.
+            
+            QUESTION:  Can you tell me the product ID for the camera I ordered?
+            
+            ANSWER:  The product ID for the camera you ordered is NK-D3500.
+            
+            SANITIZED-CONTEXT:
+            John Abramson recently ordered a 'Nikon D3500 DSLR Camera' from BigMart, order BM667788. Listed at $498.46 with an ID of NK-D3500, the final price with $10.00 shipping and taxes is $540. The camera is set to ship to 03006 and should be received by August 15th.
+            
+            SANITIZED-QUESTION: Can you tell me the product ID for the camera I ordered?
+            
+            SANITIZED-ANSWER: Sure! The product ID for the camera you ordered is NK-D3500.
+            
+            DESANITIZED-ANSWER: Sure! The product ID for the camera you ordered is NK-D3500.
+            
+            EVALUATION: 1
+            
+            ----
+            [18] CONTEXT:
+             Jordan's BigMart order BM778899 was for a 'Fitbit Versa 2 Health and Fitness Smartwatch'. The price was $179.95, and the product ID is FB-V2. After a $3.99 shipping fee and taxes, the total was $194.84. Shipping to zip 90245, Jordan can expect delivery from September 9th to September 14th.
+            
+            QUESTION:  What's the total I paid for my Fitbit smartwatch with the shipping fee?
+            
+            ANSWER:  The total you paid for your Fitbit smartwatch with the shipping fee was $194.84.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson's BigMart order BM778899 was for a 'Fitbit Versa 2 Health and Fitness Smartwatch'. The price was $178.82, and the product ID is FB-V2. After a $3.99 shipping fee and taxes, the total was $193.74. Shipping to zip 28537, Joseph Abramson can expect delivery from September 9th to September 14th.
+            
+            SANITIZED-QUESTION: What's the total I paid for my Fitbit smartwatch with the shipping fee?
+            
+            SANITIZED-ANSWER: $193.74
+            
+            DESANITIZED-ANSWER: $194.84
+            
+            EVALUATION: 1
+            
+            ----
+            [19] CONTEXT:
+             Jordan's BigMart order BM778899 was for a 'Fitbit Versa 2 Health and Fitness Smartwatch'. The price was $179.95, and the product ID is FB-V2. After a $3.99 shipping fee and taxes, the total was $194.84. Shipping to zip 90245, Jordan can expect delivery from September 9th to September 14th.
+            
+            QUESTION:  When should I expect my Fitbit order to arrive?
+            
+            ANSWER:  You should expect your Fitbit order to arrive from September 9th to September 14th.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson's BigMart order BM778899 was for a 'Fitbit Versa 2 Health and Fitness Smartwatch'. The price was $178.82, and the product ID is FB-V2. After a $3.99 shipping fee and taxes, the total was $193.74. Shipping to zip 28537, Joseph Abramson can expect delivery from September 9th to September 14th.
+            
+            SANITIZED-QUESTION: When should I expect my Fitbit order to arrive?
+            
+            SANITIZED-ANSWER: Based on the information provided, you can expect your Fitbit order to arrive between September 9th and September 14th, as stated in the context.
+            
+            DESANITIZED-ANSWER: Based on the information provided, you can expect your Fitbit order to arrive between September 9th and September 14th, as stated in the context.
+            
+            EVALUATION: 1
+            
+            ----
+            [20] CONTEXT:
+             Jordan's BigMart order BM778899 was for a 'Fitbit Versa 2 Health and Fitness Smartwatch'. The price was $179.95, and the product ID is FB-V2. After a $3.99 shipping fee and taxes, the total was $194.84. Shipping to zip 90245, Jordan can expect delivery from September 9th to September 14th.
+            
+            QUESTION:  What did I order that's arriving between September 9th and 14th?
+            
+            ANSWER:  You ordered a Fitbit Versa 2 Health and Fitness Smartwatch.
+            
+            SANITIZED-CONTEXT:
+            Joseph Abramson's BigMart order BM778899 was for a 'Fitbit Versa 2 Health and Fitness Smartwatch'. The price was $178.82, and the product ID is FB-V2. After a $3.99 shipping fee and taxes, the total was $193.74. Shipping to zip 28537, Joseph Abramson can expect delivery from September 9th to September 14th.
+            
+            SANITIZED-QUESTION: What did I order that's arriving between September 9th and 14th?
+            
+            SANITIZED-ANSWER: You ordered a Fitbit Versa 2 Health and Fitness Smartwatch, arriving between September 9th and 14th.
+            
+            DESANITIZED-ANSWER: You ordered a Fitbit Versa 2 Health and Fitness Smartwatch, arriving between September 9th and 14th.
+            
+            EVALUATION: 1
+            
+            ----
+            [21] CONTEXT:
+             Sam's latest order on BigMart, BM889900, was for a 'Dyson V11 Torque Drive Cordless Vacuum Cleaner'. They paid $699.99 for the product with ID DY-V11TD, and the total with $15.00 shipping and tax is $765.99. The vacuum is on its way to zip code 10023, with a delivery forecast from November 5th to November 10th.
+            
+            QUESTION:  How much did I pay for shipping my Dyson vacuum?
+            
+            ANSWER:  You paid $15.00 for shipping your Dyson vacuum.
+            
+            SANITIZED-CONTEXT:
+            Joseph Johnson's latest order on BigMart, BM889900, was for a 'Dyson V11 Torque Drive Cordless Vacuum Cleaner'. They paid $699.7 for the product with ID DY-V11TD, and the total with $15.00 shipping and tax is $765.5. The vacuum is on its way to zip code 98244, with a delivery forecast from November 5th to November 10th.
+            
+            SANITIZED-QUESTION: How much did I pay for shipping my Dyson vacuum?
+            
+            SANITIZED-ANSWER: You paid $15.00 for shipping your Dyson vacuum.
+            
+            DESANITIZED-ANSWER: You paid $15.00 for shipping your Dyson vacuum.
+            
+            EVALUATION: 1
+            
+            ----
+            [22] CONTEXT:
+             Sam's latest order on BigMart, BM889900, was for a 'Dyson V11 Torque Drive Cordless Vacuum Cleaner'. They paid $699.99 for the product with ID DY-V11TD, and the total with $15.00 shipping and tax is $765.99. The vacuum is on its way to zip code 10023, with a delivery forecast from November 5th to November 10th.
+            
+            QUESTION:  When will my Dyson V11 vacuum be delivered?
+            
+            ANSWER:  Your Dyson V11 vacuum will be delivered from November 5th to November 10th.
+            
+            SANITIZED-CONTEXT:
+            Joseph Johnson's latest order on BigMart, BM889900, was for a 'Dyson V11 Torque Drive Cordless Vacuum Cleaner'. They paid $699.7 for the product with ID DY-V11TD, and the total with $15.00 shipping and tax is $765.5. The vacuum is on its way to zip code 98244, with a delivery forecast from November 5th to November 10th.
+            
+            SANITIZED-QUESTION: When will my Dyson V11 vacuum be delivered?
+            
+            SANITIZED-ANSWER: Based on the information provided in the context, your Dyson V11 vacuum cleaner is forecasted to arrive at your zip code (98244) between November 5th and November 10th.
+            
+            DESANITIZED-ANSWER: Based on the information provided in the context, your Dyson V11 vacuum cleaner is forecasted to arrive at your zip code (10023) between November 5th and November 10th.
+            
+            EVALUATION: 1
+            
+            ----
+            [23] CONTEXT:
+             Sam's latest order on BigMart, BM889900, was for a 'Dyson V11 Torque Drive Cordless Vacuum Cleaner'. They paid $699.99 for the product with ID DY-V11TD, and the total with $15.00 shipping and tax is $765.99. The vacuum is on its way to zip code 10023, with a delivery forecast from November 5th to November 10th.
+            
+            QUESTION:  What's the model of the vacuum I bought?
+            
+            ANSWER:  The model of the vacuum you bought is the Dyson V11 Torque Drive Cordless Vacuum Cleaner.
+            
+            SANITIZED-CONTEXT:
+            Joseph Johnson's latest order on BigMart, BM889900, was for a 'Dyson V11 Torque Drive Cordless Vacuum Cleaner'. They paid $699.7 for the product with ID DY-V11TD, and the total with $15.00 shipping and tax is $765.5. The vacuum is on its way to zip code 98244, with a delivery forecast from November 5th to November 10th.
+            
+            SANITIZED-QUESTION: What's the model of the vacuum I bought?
+            
+            SANITIZED-ANSWER: The model of the vacuum you bought is DY-V11TD.
+            
+            DESANITIZED-ANSWER: The model of the vacuum you bought is DY-V11TD.
+            
+            EVALUATION: 1
+            
+            ----
+            [24] CONTEXT:
+             Devon's order BM990011 at BigMart included a 'YETI Tundra 45 Cooler'. The product ID for this item is YT-T45C, and it was priced at $299.99. After adding taxes and a shipping charge of $14.99, Devon’s total spend was $340.98. The cooler is destined for zip 60607, with the expected arrival time from December 12th to December 18th.
+            
+            QUESTION:  What's the total cost with shipping for the YETI cooler I ordered?
+            
+            ANSWER:  The total cost with shipping for the YETI cooler you ordered was $340.98.
+            
+            SANITIZED-CONTEXT:
+            John Abramson's order BM990011 at BigMart included a 'YETI Tundra 45 Cooler'. The product ID for this item is YT-T45C, and it was priced at $299. After adding taxes and a shipping charge of $14.01, John Abramson’s total spend was $339.8. The cooler is destined for zip 94550, with the expected arrival time from December 12th to December 18th.
+            
+            SANITIZED-QUESTION: What's the total cost with shipping for the YETI cooler I ordered?
+            
+            SANITIZED-ANSWER: The total cost with shipping for the YETI Tundra 45 Cooler you ordered is $339.8.
+            
+            DESANITIZED-ANSWER: The total cost with shipping for the YETI Tundra 45 Cooler you ordered is $340.98.
+            
+            EVALUATION: 1
+            
+            ----
+            [25] CONTEXT:
+             Devon's order BM990011 at BigMart included a 'YETI Tundra 45 Cooler'. The product ID for this item is YT-T45C, and it was priced at $299.99. After adding taxes and a shipping charge of $14.99, Devon’s total spend was $340.98. The cooler is destined for zip 60607, with the expected arrival time from December 12th to December 18th.
+            
+            QUESTION:  Can you provide the delivery dates for my recent BigMart purchase?
+            
+            ANSWER:  The delivery dates for your recent BigMart purchase are from December 12th to December 18th.
+            
+            SANITIZED-CONTEXT:
+            John Abramson's order BM990011 at BigMart included a 'YETI Tundra 45 Cooler'. The product ID for this item is YT-T45C, and it was priced at $299. After adding taxes and a shipping charge of $14.01, John Abramson’s total spend was $339.8. The cooler is destined for zip 94550, with the expected arrival time from December 12th to December 18th.
+            
+            SANITIZED-QUESTION: Can you provide the delivery dates for my recent BigMart purchase?
+            
+            SANITIZED-ANSWER: Sure! Based on the information provided in the context, the estimated delivery date for your purchase is between December 12th and December 18th.
+            
+            DESANITIZED-ANSWER: Sure! Based on the information provided in the context, the estimated delivery date for your purchase is between December 12th and December 18th.
+            
+            EVALUATION: 1
+            
+            ----
+            [26] CONTEXT:
+             Devon's order BM990011 at BigMart included a 'YETI Tundra 45 Cooler'. The product ID for this item is YT-T45C, and it was priced at $299.99. After adding taxes and a shipping charge of $14.99, Devon’s total spend was $340.98. The cooler is destined for zip 60607, with the expected arrival time from December 12th to December 18th.
+            
+            QUESTION:  I'm not sure what I bought recently, can you help me identify it?
+            
+            ANSWER:  You recently bought a YETI Tundra 45 Cooler.
+            
+            SANITIZED-CONTEXT:
+            John Abramson's order BM990011 at BigMart included a 'YETI Tundra 45 Cooler'. The product ID for this item is YT-T45C, and it was priced at $299. After adding taxes and a shipping charge of $14.01, John Abramson’s total spend was $339.8. The cooler is destined for zip 94550, with the expected arrival time from December 12th to December 18th.
+            
+            SANITIZED-QUESTION: I'm not sure what I bought recently, can you help me identify it?
+            
+            SANITIZED-ANSWER: Of course! Based on the information provided in the context, the item that John Abramson purchased is a YETI Tundra 45 Cooler with the product ID YT-T45C.
+            
+            DESANITIZED-ANSWER: Of course! Based on the information provided in the context, the item that Devon purchased is a YETI Tundra 45 Cooler with the product ID YT-T45C.
+            
+            EVALUATION: 1
+            
+            ----
+            [27] CONTEXT:
+             Bailey's BigMart transaction, BM101112, was for a 'Bose SoundLink Bluetooth Speaker'. The speaker, with an ID of BS-SLBS, was listed at $129.00. A $6.99 shipping fee was added, and with tax, the total came to $146.92. Shipping to zip code 80202, the speaker's estimated delivery is from January 22nd to January 27th.
+            
+            QUESTION:  What was my total charge for the Bose speaker, including the shipping fee?
+            
+            ANSWER:  Your total charge for the Bose speaker, including the shipping fee, was $146.92.
+            
+            SANITIZED-CONTEXT:
+            Bailey's BigMart transaction, BM101112, was for a 'Bose SoundLink Bluetooth Speaker'. The speaker, with an ID of BS-SLBS, was listed at $129.28. A $6 shipping fee was added, and with tax, the total came to $146.05. Shipping to zip code 32283, the speaker's estimated delivery is from January 22nd to January 27th.
+            
+            SANITIZED-QUESTION: What was my total charge for the Bose speaker, including the shipping fee?
+            
+            SANITIZED-ANSWER: Your total charge for the Bose SoundLink Bluetooth Speaker was $146.05.
+            
+            DESANITIZED-ANSWER: Your total charge for the Bose SoundLink Bluetooth Speaker was $146.92.
+            
+            EVALUATION: 1
+            
+            ----
+            [28] CONTEXT:
+             Bailey's BigMart transaction, BM101112, was for a 'Bose SoundLink Bluetooth Speaker'. The speaker, with an ID of BS-SLBS, was listed at $129.00. A $6.99 shipping fee was added, and with tax, the total came to $146.92. Shipping to zip code 80202, the speaker's estimated delivery is from January 22nd to January 27th.
+            
+            QUESTION:  When will the speaker I ordered arrive?
+            
+            ANSWER:  The speaker you ordered will arrive from January 22nd to January 27th.
+            
+            SANITIZED-CONTEXT:
+            Bailey's BigMart transaction, BM101112, was for a 'Bose SoundLink Bluetooth Speaker'. The speaker, with an ID of BS-SLBS, was listed at $129.28. A $6 shipping fee was added, and with tax, the total came to $146.05. Shipping to zip code 32283, the speaker's estimated delivery is from January 22nd to January 27th.
+            
+            SANITIZED-QUESTION: When will the speaker I ordered arrive?
+            
+            SANITIZED-ANSWER: The speaker is estimated to arrive between January 22nd and January 27th, based on the provided context.
+            
+            DESANITIZED-ANSWER: The speaker is estimated to arrive between January 22nd and January 27th, based on the provided context.
+            
+            EVALUATION: 1
+            
+            ----
+            [29] CONTEXT:
+             Bailey's BigMart transaction, BM101112, was for a 'Bose SoundLink Bluetooth Speaker'. The speaker, with an ID of BS-SLBS, was listed at $129.00. A $6.99 shipping fee was added, and with tax, the total came to $146.92. Shipping to zip code 80202, the speaker's estimated delivery is from January 22nd to January 27th.
+            
+            QUESTION:  What item comes with the product ID BS-SLBS?
+            
+            ANSWER:  The item that comes with the product ID BS-SLBS is the Bose SoundLink Bluetooth Speaker.
+            
+            SANITIZED-CONTEXT:
+            Bailey's BigMart transaction, BM101112, was for a 'Bose SoundLink Bluetooth Speaker'. The speaker, with an ID of BS-SLBS, was listed at $129.28. A $6 shipping fee was added, and with tax, the total came to $146.05. Shipping to zip code 32283, the speaker's estimated delivery is from January 22nd to January 27th.
+            
+            SANITIZED-QUESTION: What item comes with the product ID BS-SLBS?
+            
+            SANITIZED-ANSWER: The item that comes with the product ID BS-SLBS is a Bose SoundLink Bluetooth Speaker.
+            
+            DESANITIZED-ANSWER: The item that comes with the product ID BS-SLBS is a Bose SoundLink Bluetooth Speaker.
+            
+            EVALUATION: 1
+            

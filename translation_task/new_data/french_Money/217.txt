@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01MPy8k1ubSUX2zUzz3aLCYX","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Voici les éléments identifiés comme 'Money' dans le texte, formatés en liste :\n\n- $761,945.69"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":72,"output_tokens":35}}

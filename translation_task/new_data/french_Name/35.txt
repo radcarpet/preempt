@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_019JzGqZdTG2kTwCJirDMCFZ","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Liste des noms identifiés:\n\n- Viva\n- Jenkins"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":103,"output_tokens":19}}

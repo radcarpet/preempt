@@ -1,0 +1,652 @@
+
+            ----
+            [0.0] CONTEXT:
+            Mr. Johnson recently made a purchase on E-Shop.com using his credit card 4567 8910 1112 1314. The transaction was completed on Mar 12th and was shipped to his address in the 90210 zip code area.
+
+            
+            QUESTION: What is the zip code of the address where the purchase was shipped?
+
+            
+            ANSWER:  90210
+            
+            SANITIZED-CONTEXT:
+            Mr. Johnson recently made a purchase on E-Shop.com using his credit card 8061 6210 7097 9386. The transaction was completed on March 24 and was shipped to his address in the 59241 zip code area.
+            
+            SANITIZED-QUESTION: What is the zip code of the address where the purchase was shipped?
+            
+            SANITIZED-ANSWER: 59241
+            
+            DESANITIZED-ANSWER: 90210
+            
+            EVALUATION: 1
+            
+            ----
+            [1.1] CONTEXT:
+            Sarah ordered a new laptop from OnlineMarketplace.com. The payment was processed using her credit card number 1234 5678 9101 1121 on Apr 5th. Delivery was arranged to 10001 zip code.
+
+            
+            QUESTION: Where did Sarah order her new laptop from?
+
+            
+            ANSWER:  OnlineMarketplace.com
+            
+            SANITIZED-CONTEXT:
+            Sarah ordered a new laptop from OnlineMarketplace.com. The payment was processed using her credit card number 2683 2901 4526 5962 on March 24. Delivery was arranged to 09944 zip code.
+            
+            SANITIZED-QUESTION: Where did Sarah order her new laptop from?
+            
+            SANITIZED-ANSWER: Sarah ordered her new laptop from OnlineMarketplace.com.
+            
+            DESANITIZED-ANSWER: Sarah ordered her new laptop from OnlineMarketplace.com.
+            
+            EVALUATION: 1
+            
+            ----
+            [2.2] CONTEXT:
+            On Jul 7th, a purchase was made at VirtualShop.com with the credit card number 2345 6789 0123 4567. The product was shipped to the 12345 zip code region.
+
+            
+            QUESTION: What was the number of the credit card used for the purchase on VirtualShop.com?
+
+            
+            ANSWER:  2345 6789 0123 4567
+            
+            SANITIZED-CONTEXT:
+            On June 09, a purchase was made at VirtualShop.com with the credit card number 5702 2691 8381 5672. The product was shipped to the 09557 zip code region.
+            
+            SANITIZED-QUESTION: What was the number of the credit card used for the purchase on VirtualShop.com?
+            
+            SANITIZED-ANSWER: 5702 2691 8381 5672
+            
+            DESANITIZED-ANSWER: 2345 6789 0123 4567
+            
+            EVALUATION: 1
+            
+            ----
+            [3.3] CONTEXT:
+            A customer used their credit card 3456 7890 1234 5678 for a transaction at BuyNow.com on Jun 21st. The goods were delivered to the area with the zip code 54321.
+
+            
+            QUESTION: On which date was the transaction made at BuyNow.com?
+
+            
+            ANSWER:  Jun 21st
+            
+            SANITIZED-CONTEXT:
+            A customer used their credit card 1599 8790 9919 8881 for a transaction at BuyNow.com on July 23. The goods were delivered to the area with the zip code 00444.
+            
+            SANITIZED-QUESTION: On which date was the transaction made at BuyNow.com?
+            
+            SANITIZED-ANSWER: July 23.
+            
+            DESANITIZED-ANSWER: Jun 21st.
+            
+            EVALUATION: 1
+            
+            ----
+            [4.4] CONTEXT:
+            A recent transaction on SellFast.com was made using the credit card number 4567 8901 2345 6789. This purchase on May 16th was shipped to the 67890 zip code area.
+
+            
+            QUESTION: To which zip code area was the purchase from SellFast.com shipped?
+
+            
+            ANSWER:  67890
+            
+            SANITIZED-CONTEXT:
+            A recent transaction on SellFast.com was made using the credit card number 8028 1331 6797 6336. This purchase on May 07 was shipped to the 13118 zip code area.
+            
+            SANITIZED-QUESTION: To which zip code area was the purchase from SellFast.com shipped?
+            
+            SANITIZED-ANSWER: 13118
+            
+            DESANITIZED-ANSWER: 67890
+            
+            EVALUATION: 1
+            
+            ----
+            [5.5] CONTEXT:
+            Emily used her credit card 5678 9012 3456 7890 for an online purchase from QuickBuy.com on Aug 30th. The product was sent to the 78901 zip code.
+
+            
+            QUESTION: What is the number of the credit card used by Emily for the online purchase?
+
+            
+            ANSWER:  5678 9012 3456 7890
+            
+            SANITIZED-CONTEXT:
+            Emily used her credit card 5192 9566 3962 9671 for an online purchase from QuickBuy.com on September 16. The product was sent to the 96528 zip code.
+            
+            SANITIZED-QUESTION: What is the number of the credit card used by Emily for the online purchase?
+            
+            SANITIZED-ANSWER: 5192 9566 3962 9671
+            
+            DESANITIZED-ANSWER: 5678 9012 3456 7890
+            
+            EVALUATION: 1
+            
+            ----
+            [6.6] CONTEXT:
+            On Sep 25th, a customer made a purchase on WebStore.com using the credit card 6789 0123 4567 8901. The delivery address was in the 89012 zip code area.
+
+            
+            QUESTION: What website was the purchase made on?
+
+            
+            ANSWER:  WebStore.com
+            
+            SANITIZED-CONTEXT:
+            On October 29, a customer made a purchase on WebStore.com using the credit card 6284 1679 3688 2812. The delivery address was in the 84512 zip code area.
+            
+            SANITIZED-QUESTION: What website was the purchase made on?
+            
+            SANITIZED-ANSWER: WebStore.com
+            
+            DESANITIZED-ANSWER: WebStore.com
+            
+            EVALUATION: 1
+            
+            ----
+            [7.7] CONTEXT:
+            An order was placed on MarketPlace.com using the credit card 7890 1234 5678 9012 on Oct 14th. The delivery was made to the zip code 90123.
+
+            
+            QUESTION: What date was the order placed on MarketPlace.com?
+
+            
+            ANSWER:  Oct 14th
+            
+            SANITIZED-CONTEXT:
+            An order was placed on MarketPlace.com using the credit card 7903 8050 5485 6223 on October 29. The delivery was made to the zip code 16034.
+            
+            SANITIZED-QUESTION: What date was the order placed on MarketPlace.com?
+            
+            SANITIZED-ANSWER: October 29.
+            
+            DESANITIZED-ANSWER: Oct 14th.
+            
+            EVALUATION: 1
+            
+            ----
+            [8.8] CONTEXT:
+            A payment of $250 was made on E-buy.com using the credit card 8901 2345 6789 0123 on Nov 22nd. The items were shipped to the zip code 01234.
+
+            
+            QUESTION: How much was the payment made on E-buy.com?
+
+            
+            ANSWER:  $250
+            
+            SANITIZED-CONTEXT:
+            A payment of $250 was made on E-buy.com using the credit card 3335 7007 6426 9725 on October 19. The items were shipped to the zip code 04518.
+            
+            SANITIZED-QUESTION: How much was the payment made on E-buy.com?
+            
+            SANITIZED-ANSWER: $250
+            
+            DESANITIZED-ANSWER: $250
+            
+            EVALUATION: 1
+            
+            ----
+            [9.9] CONTEXT:
+            On Dec 3rd, Linda made a purchase at QuickSell.com with her credit card 9012 3456 7890 1234. The order was shipped to the 12340 zip code.
+
+            
+            QUESTION: Who made the purchase at QuickSell.com?
+
+            
+            ANSWER:  Linda
+            
+            SANITIZED-CONTEXT:
+            On January 03, Linda made a purchase at QuickSell.com with her credit card 4686 9889 5899 8779. The order was shipped to the 86902 zip code.
+            
+            SANITIZED-QUESTION: Who made the purchase at QuickSell.com?
+            
+            SANITIZED-ANSWER: Linda made the purchase at QuickSell.com.
+            
+            DESANITIZED-ANSWER: Linda made the purchase at QuickSell.com.
+            
+            EVALUATION: 1
+            
+            ----
+            [10.10] CONTEXT:
+            John completed an order on FastShop.com using his credit card 1122 3344 5566 7788 on Jan 19th. The items were shipped to the 22133 zip code.
+
+            
+            QUESTION: To what zip code were John's items shipped?
+
+            
+            ANSWER:  22133
+            
+            SANITIZED-CONTEXT:
+            John completed an order on FastShop.com using his credit card 7696 9165 8202 3983 on March 24. The items were shipped to the 18999 zip code.
+            
+            SANITIZED-QUESTION: To what zip code were John's items shipped?
+            
+            SANITIZED-ANSWER: 18999
+            
+            DESANITIZED-ANSWER: 22133
+            
+            EVALUATION: 1
+            
+            ----
+            [11.11] CONTEXT:
+            A transaction was made on OnlineStore.com with the credit card 2233 4455 6677 8899 on Feb 28th. The goods were sent to the 33444 zip code area.
+
+            
+            QUESTION: What was the credit card number used for the transaction on OnlineStore.com?
+
+            
+            ANSWER:  2233 4455 6677 8899
+            
+            SANITIZED-CONTEXT:
+            A transaction was made on OnlineStore.com with the credit card 2233 4455 6677 5093 on March 03. The goods were sent to the 33444 zip code area.
+            
+            SANITIZED-QUESTION: What was the credit card number used for the transaction on OnlineStore.com?
+            
+            SANITIZED-ANSWER: 2233 4455 6677 5093
+            
+            DESANITIZED-ANSWER: 2233 4455 6677 8899
+            
+            EVALUATION: 1
+            
+            ----
+            [12.12] CONTEXT:
+            ShopRight.com received an order paid with the credit card 3344 5566 7788 9900 on Mar 15th. The shipping address was in the 44555 zip code region.
+
+            
+            QUESTION: On which date was the order placed on ShopRight.com?
+
+            
+            ANSWER:  Mar 15th
+            
+            SANITIZED-CONTEXT:
+            ShopRight.com received an order paid with the credit card 5970 3396 0320 7139 on March 24. The shipping address was in the 72130 zip code region.
+            
+            SANITIZED-QUESTION: On which date was the order placed on ShopRight.com?
+            
+            SANITIZED-ANSWER: March 24.
+            
+            DESANITIZED-ANSWER: Mar 15th.
+            
+            EVALUATION: 1
+            
+            ----
+            [13.13] CONTEXT:
+            Amy bought a dress from FashionHub.com using her credit card 4455 6677 8899 0011 on Apr 21st. The delivery was to the 55666 zip code.
+
+            
+            QUESTION: Who made a purchase from FashionHub.com?
+
+            
+            ANSWER:  Amy
+            
+            SANITIZED-CONTEXT:
+            Amy bought a dress from FashionHub.com using her credit card 8147 5208 7330 0690 on April 15. The delivery was to the 69182 zip code.
+            
+            SANITIZED-QUESTION: Who made a purchase from FashionHub.com?
+            
+            SANITIZED-ANSWER: Amy made a purchase from FashionHub.com.
+            
+            DESANITIZED-ANSWER: Amy made a purchase from FashionHub.com.
+            
+            EVALUATION: 1
+            
+            ----
+            [14.14] CONTEXT:
+            On May 10th, a purchase was made at TechWorld.com with credit card number 5566 7788 9900 1122. The product was shipped to the 66777 zip code area.
+
+            
+            QUESTION: What is the zip code area to which the product from TechWorld.com was shipped?
+
+            
+            ANSWER:  66777
+            
+            SANITIZED-CONTEXT:
+            On May 07, a purchase was made at TechWorld.com with credit card number 5895 7179 9167 8039. The product was shipped to the 47238 zip code area.
+            
+            SANITIZED-QUESTION: What is the zip code area to which the product from TechWorld.com was shipped?
+            
+            SANITIZED-ANSWER: 47238
+            
+            DESANITIZED-ANSWER: 66777
+            
+            EVALUATION: 1
+            
+            ----
+            [15.15] CONTEXT:
+            A customer used their credit card 6677 8899 0011 2233 for a transaction on HomeGoods.com on Jun 2nd. The goods were delivered to the 77888 zip code.
+
+            
+            QUESTION: What is the number of the credit card used for the transaction on HomeGoods.com?
+
+            
+            ANSWER:  6677 8899 0011 2233
+            
+            SANITIZED-CONTEXT:
+            A customer used their credit card 1470 9370 5625 9930 for a transaction on HomeGoods.com on May 18. The goods were delivered to the 74471 zip code.
+            
+            SANITIZED-QUESTION: What is the number of the credit card used for the transaction on HomeGoods.com?
+            
+            SANITIZED-ANSWER: 1470 9370 5625 9930
+            
+            DESANITIZED-ANSWER: 6677 8899 0011 2233
+            
+            EVALUATION: 1
+            
+            ----
+            [16.16] CONTEXT:
+            An order was placed on KidsToys.com using the credit card 7788 9900 1122 3344 on Jul 26th. The delivery was made to the 88999 zip code.
+
+            
+            QUESTION: On what date was the order placed on KidsToys.com?
+
+            
+            ANSWER:  Jul 26th
+            
+            SANITIZED-CONTEXT:
+            An order was placed on KidsToys.com using the credit card 8048 1459 5765 7060 on July 12. The delivery was made to the 74080 zip code.
+            
+            SANITIZED-QUESTION: On what date was the order placed on KidsToys.com?
+            
+            SANITIZED-ANSWER: July 12.
+            
+            DESANITIZED-ANSWER: Jul 26th.
+            
+            EVALUATION: 1
+            
+            ----
+            [17.17] CONTEXT:
+            A payment of $150 was made on BookWorld.com using the credit card 8899 0011 2233 4455 on Aug 18th. The items were shipped to the 99122 zip code.
+
+            
+            QUESTION: How much was the payment made on BookWorld.com?
+
+            
+            ANSWER:  $150
+            
+            SANITIZED-CONTEXT:
+            A payment of $150 was made on BookWorld.com using the credit card 1886 4741 7538 2382 on July 01. The items were shipped to the 07714 zip code.
+            
+            SANITIZED-QUESTION: How much was the payment made on BookWorld.com?
+            
+            SANITIZED-ANSWER: $150
+            
+            DESANITIZED-ANSWER: $150
+            
+            EVALUATION: 1
+            
+            ----
+            [18.18] CONTEXT:
+            On Sep 9th, Mark made a purchase at GadgetZone.com with his credit card 9900 1122 3344 5566. The order was shipped to the 11222 zip code.
+
+            
+            QUESTION: Who made the purchase at GadgetZone.com?
+
+            
+            ANSWER:  Mark
+            
+            SANITIZED-CONTEXT:
+            On August 03, Mark made a purchase at GadgetZone.com with his credit card 6640 9224 5579 1521. The order was shipped to the 84736 zip code.
+            
+            SANITIZED-QUESTION: Who made the purchase at GadgetZone.com?
+            
+            SANITIZED-ANSWER: Mark made the purchase at GadgetZone.com.
+            
+            DESANITIZED-ANSWER: Mark made the purchase at GadgetZone.com.
+            
+            EVALUATION: 1
+            
+            ----
+            [19.19] CONTEXT:
+            A recent transaction on ElectronicsStore.com was made using the credit card number 1234 5678 9101 1121. This purchase on Oct 30th was shipped to the 12321 zip code area.
+
+            
+            QUESTION: To which zip code area was the purchase from ElectronicsStore.com shipped?
+
+            
+            ANSWER:  12321
+            
+            SANITIZED-CONTEXT:
+            A recent transaction on ElectronicsStore.com was made using the credit card number 2683 2901 4526 5962. This purchase on January 03 was shipped to the 28505 zip code area.
+            
+            SANITIZED-QUESTION: To which zip code area was the purchase from ElectronicsStore.com shipped?
+            
+            SANITIZED-ANSWER: 28505
+            
+            DESANITIZED-ANSWER: 12321
+            
+            EVALUATION: 1
+            
+            ----
+            [20.20] CONTEXT:
+            On Nov 11th, a customer made a purchase on AllForHome.com using the credit card 2345 6789 0123 4567. The delivery address was in the 23432 zip code area.
+
+            
+            QUESTION: What website was the purchase made on?
+
+            
+            ANSWER:  AllForHome.com
+            
+            SANITIZED-CONTEXT:
+            On December 01, a customer made a purchase on AllForHome.com using the credit card 5702 2691 8381 5672. The delivery address was in the 19562 zip code area.
+            
+            SANITIZED-QUESTION: What website was the purchase made on?
+            
+            SANITIZED-ANSWER: AllForHome.com
+            
+            DESANITIZED-ANSWER: AllForHome.com
+            
+            EVALUATION: 1
+            
+            ----
+            [21.21] CONTEXT:
+            An order was placed on FashionStreet.com using the credit card 3456 7890 1234 5678 on Dec 5th. The delivery was made to the 34543 zip code.
+
+            
+            QUESTION: What date was the order placed on FashionStreet.com?
+
+            
+            ANSWER:  Dec 5th
+            
+            SANITIZED-CONTEXT:
+            An order was placed on FashionStreet.com using the credit card 1599 8790 9919 8881 on February 05. The delivery was made to the 75073 zip code.
+            
+            SANITIZED-QUESTION: What date was the order placed on FashionStreet.com?
+            
+            SANITIZED-ANSWER: February 05.
+            
+            DESANITIZED-ANSWER: Dec 5th.
+            
+            EVALUATION: 1
+            
+            ----
+            [22.22] CONTEXT:
+            Linda used her credit card 4567 8901 2345 6789 for an online purchase from BeautyWorld.com on Jan 16th. The product was sent to the 45654 zip code.
+
+            
+            QUESTION: What is the number of the credit card used by Linda for the online purchase?
+
+            
+            ANSWER:  4567 8901 2345 6789
+            
+            SANITIZED-CONTEXT:
+            Linda used her credit card 8028 1331 6797 6336 for an online purchase from BeautyWorld.com on December 28. The product was sent to the 22431 zip code.
+            
+            SANITIZED-QUESTION: What is the number of the credit card used by Linda for the online purchase?
+            
+            SANITIZED-ANSWER: 8028 1331 6797 6336
+            
+            DESANITIZED-ANSWER: 4567 8901 2345 6789
+            
+            EVALUATION: 1
+            
+            ----
+            [23.23] CONTEXT:
+            A transaction was made on BestBuys.com with the credit card 5678 9012 3456 7890 on Feb 22nd. The goods were sent to the 56765 zip code area.
+
+            
+            QUESTION: What was the credit card number used for the transaction on BestBuys.com?
+
+            
+            ANSWER:  5678 9012 3456 7890
+            
+            SANITIZED-CONTEXT:
+            A transaction was made on BestBuys.com with the credit card 5192 9566 3962 9671 on January 18. The goods were sent to the 29601 zip code area.
+            
+            SANITIZED-QUESTION: What was the credit card number used for the transaction on BestBuys.com?
+            
+            SANITIZED-ANSWER: 5192 9566 3962 9671
+            
+            DESANITIZED-ANSWER: 5678 9012 3456 7890
+            
+            EVALUATION: 1
+            
+            ----
+            [24.24] CONTEXT:
+            On Mar 8th, a purchase was made at SuperStore.com with the credit card number 6789 0123 4567 8901. The product was shipped to the 67876 zip code region.
+
+            
+            QUESTION: On which date was the purchase made at SuperStore
+
+            
+            ANSWER:  Mar 8th
+            
+            SANITIZED-CONTEXT:
+            On March 14, a purchase was made at SuperStore.com with the credit card number 6284 1679 3688 2812. The product was shipped to the 95939 zip code region.
+            
+            SANITIZED-QUESTION: On which date was the purchase made at SuperStore
+            
+            SANITIZED-ANSWER: March 14
+            
+            DESANITIZED-ANSWER: Mar 8th
+            
+            EVALUATION: 1
+            
+            ----
+            [25.25] CONTEXT:
+            A customer used their credit card 7890 1234 5678 9012 for a transaction at MegaMarket.com on Apr 14th. The goods were delivered to the area with the zip code 78987.
+
+            
+            QUESTION: On which date was the transaction made at MegaMarket.com?
+
+            
+            ANSWER:  Apr 14th
+            
+            SANITIZED-CONTEXT:
+            A customer used their credit card 7903 8050 5485 6223 for a transaction at MegaMarket.com on April 15. The goods were delivered to the area with the zip code 23430.
+            
+            SANITIZED-QUESTION: On which date was the transaction made at MegaMarket.com?
+            
+            SANITIZED-ANSWER: April 15.
+            
+            DESANITIZED-ANSWER: Apr 14th.
+            
+            EVALUATION: 1
+            
+            ----
+            [26.26] CONTEXT:
+            A recent transaction on QuickDeals.com was made using the credit card number 8901 2345 6789 0123. This purchase on May 20th was shipped to the 89098 zip code area.
+
+            
+            QUESTION: To which zip code area was the purchase from QuickDeals.com shipped?
+
+            
+            ANSWER:  89098
+            
+            SANITIZED-CONTEXT:
+            A recent transaction on QuickDeals.com was made using the credit card number 3335 7007 6426 9725. This purchase on June 09 was shipped to the 27055 zip code area.
+            
+            SANITIZED-QUESTION: To which zip code area was the purchase from QuickDeals.com shipped?
+            
+            SANITIZED-ANSWER: 27055
+            
+            DESANITIZED-ANSWER: 89098
+            
+            EVALUATION: 1
+            
+            ----
+            [27.27] CONTEXT:
+            Emily used her credit card 9012 3456 7890 1234 for an online purchase from DealFinder.com on Jun 29th. The product was sent to the 90189 zip code.
+
+            
+            QUESTION: What is the number of the credit card used by Emily for the online purchase?
+
+            
+            ANSWER:  9012 3456 7890 1234
+            
+            SANITIZED-CONTEXT:
+            Emily used her credit card 4686 9889 5899 8779 for an online purchase from DealFinder.com on July 12. The product was sent to the 10762 zip code.
+            
+            SANITIZED-QUESTION: What is the number of the credit card used by Emily for the online purchase?
+            
+            SANITIZED-ANSWER: 4686 9889 5899 8779
+            
+            DESANITIZED-ANSWER: 9012 3456 7890 1234
+            
+            EVALUATION: 1
+            
+            ----
+            [28.28] CONTEXT:
+            On Jul 17th, a customer made a purchase on SmartShop.com using the credit card 0123 4567 8901 2345. The delivery address was in the 01230 zip code area.
+
+            
+            QUESTION: What website was the purchase made on?
+
+            
+            ANSWER:  SmartShop.com
+            
+            SANITIZED-CONTEXT:
+            On June 09, a customer made a purchase on SmartShop.com using the credit card 2416 9395 1600 9434. The delivery address was in the 30010 zip code area.
+            
+            SANITIZED-QUESTION: What website was the purchase made on?
+            
+            SANITIZED-ANSWER: SmartShop.com
+            
+            DESANITIZED-ANSWER: SmartShop.com
+            
+            EVALUATION: 1
+            
+            ----
+            [29.29] CONTEXT:
+            An order was placed on HomeEssentials.com using the credit card 1234 5678 9012 3456 on Aug 31st. The delivery was made to the 12309 zip code.
+
+            
+            QUESTION: What date was the order placed on HomeEssentials.com?
+
+            
+            ANSWER:  Aug 31st
+            
+            SANITIZED-CONTEXT:
+            An order was placed on HomeEssentials.com using the credit card 0802 2919 5117 5118 on August 25. The delivery was made to the 75838 zip code.
+            
+            SANITIZED-QUESTION: What date was the order placed on HomeEssentials.com?
+            
+            SANITIZED-ANSWER: August 25.
+            
+            DESANITIZED-ANSWER: Aug 31st.
+            
+            EVALUATION: 1
+            
+            ----
+            [30.30] CONTEXT:
+            A payment of $300 was made on ToyUniverse.com using the credit card 2345 6789 0123 4567 on Sep 23rd. The items were shipped to the 23409 zip code.
+
+            
+            QUESTION: How much was the payment made on ToyUniverse.com?
+
+            
+            ANSWER:  $300
+            
+            SANITIZED-CONTEXT:
+            A payment of $300 was made on ToyUniverse.com using the credit card 5702 2691 8381 5672 on September 27. The items were shipped to the 64891 zip code.
+            
+            SANITIZED-QUESTION: How much was the payment made on ToyUniverse.com?
+            
+            SANITIZED-ANSWER: $300
+            
+            DESANITIZED-ANSWER: $300
+            
+            EVALUATION: 1
+            

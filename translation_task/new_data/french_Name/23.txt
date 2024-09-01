@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_017e8sBdXx1moSFxouD3DLyE","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Liste des noms identifiés :\n\n- Pearl"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":69,"output_tokens":14}}

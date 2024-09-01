@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01FaNSppdYJD7rGii6PrWtEt","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Voici l'âge identifié dans le texte, formaté en liste :\n\n- 23 years old"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":114,"output_tokens":29}}

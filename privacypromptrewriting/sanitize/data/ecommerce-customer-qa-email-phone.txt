@@ -1,0 +1,118 @@
+P: Robin ordered a 'GoPro HERO9 Black' from BigMart, order number BM200200. The camera, ID GP-H9B,
+cost $399.99. With shipping and tax, the total was $435.59. It will be shipped to 80203, and
+is expected to arrive by Mar 20th. Robin can be reached at robin@example.com or 303-402-1234.
+
+Q: What's the total I paid for my GoPro HERO9 Black?
+A: The total you paid for your GoPro HERO9 Black was $435.59.
+Q: When will my GoPro camera arrive?
+A: Your GoPro camera will arrive by Mar 20th.
+Q: What is the product ID of my GoPro camera?
+A: The product ID of your GoPro camera is GP-H9B.
+
+
+P: Avery purchased a 'Microsoft Surface Pro 7' on BigMart, order BM300300. The product ID is MS-SP7,
+priced at $749.99. The final amount with tax and $9.99 shipping is $810.49. Delivery to 10024 is
+expected by Apr 10th. Avery’s contact details are avery@example.com and 212-555-6789.
+
+Q: How much did I pay in total for the Surface Pro 7 including shipping?
+A: Your total payment for the Surface Pro 7 including shipping was $810.49.
+Q: What is the estimated delivery date for my Microsoft Surface Pro 7?
+A: The estimated delivery date for your Microsoft Surface Pro 7 is by Apr 10th.
+Q: What's the product ID of the item I ordered?
+A: The product ID of the item you ordered is MS-SP7.
+
+
+P: Jordan bought an 'Apple iPad Air (4th Generation)' from BigMart under order BM400400. The
+iPad, with product ID AP-IPA4, was $599.00. Total cost after $7.99 shipping and tax is $648.94.
+The delivery to 94105 is expected by May 15th. Contact: jordan@example.com, 415-322-9087.
+
+Q: What was the total amount for my iPad Air purchase?
+A: The total amount for your iPad Air purchase was $648.94.
+Q: When is my iPad expected to be delivered?
+A: Your iPad is expected to be delivered by May 15th.
+Q: Can you provide the product ID for my iPad Air?
+A: The product ID for your iPad Air is AP-IPA4.
+
+
+P: Taylor ordered a 'Dell XPS 13 Laptop' from BigMart, order number BM500500. The laptop, ID
+DE-XPS13, cost $1,199.99. The total with tax and a $12.00 shipping fee is $1,294.99. It's
+expected to arrive at zip 60611 by Jun 18th. Contact info: taylor@example.com, 312-413-9912.
+
+Q: How much was the total cost for my Dell XPS 13, including shipping?
+A: The total cost for your Dell XPS 13, including shipping, was $1,294.99.
+Q: What date should I expect my laptop?
+A: You should expect your laptop by Jun 18th.
+Q: What is the product ID of the Dell XPS 13 I ordered?
+A: The product ID of the Dell XPS 13 you ordered is DE-XPS13.
+
+
+P: Alex made a purchase of a 'Bose Soundbar 700' at BigMart, order BM600600. The soundbar, ID
+BS-SB700, was priced at $799.00. The final bill, with $13.00 shipping and tax, is $863.37.
+This is scheduled to arrive in 90025 by Jul 25th. Alex’s contact: alex@example.com, 310-447-5689.
+
+Q: What's the total I paid for the Bose Soundbar 700?
+A: The total you paid for the Bose Soundbar 700 was $863.37.
+Q: When will my soundbar be delivered?
+A: Your soundbar will be delivered by Jul 25th.
+Q: Can you tell me the product ID for my Bose Soundbar?
+A: The product ID for your Bose Soundbar is BS-SB700.
+
+
+P: Morgan ordered a 'KitchenAid Artisan Series Mixer' from BigMart, order BM700700. The mixer, ID
+KA-ASM, cost $379.99. Including $10.00 shipping and tax, the total is $410.89. It will be
+delivered to 78758 by Aug 15th. Morgan’s email is morgan@example.com, phone 512-481-7523.
+
+Q: How much did my KitchenAid Mixer cost in total?
+A: Your KitchenAid Mixer cost a total of $410.89.
+Q: What's the delivery date for my mixer?
+A: The delivery date for your mixer is by Aug 15th.
+Q: What is the product ID of the mixer I bought?
+A: The product ID of the mixer you bought is KA-ASM.
+
+
+P: Casey recently bought a 'Nikon D850 DSLR Camera' from BigMart, order BM800800. The camera, ID
+NK-D850, was $2,996.95. With tax and $20.00 shipping, the total is $3,241.70. Delivery to 30309
+is expected by Sep 9th. Contact: casey@example.com, 404-321-8765.
+
+Q: What was the total amount I paid for the Nikon D850 camera?
+A: The total amount you paid for the Nikon D850 camera was $3,241.70.
+Q: When is my camera supposed to arrive?
+A: Your camera is supposed to arrive by Sep 9th.
+Q: Can you provide the product ID for my Nikon camera?
+A: The product ID for your Nikon camera is NK-D850.
+
+
+P: Riley's BigMart order BM900900 included a 'Garmin Fenix 6S Pro Solar' watch. The product ID
+is GM-F6SPS, costing $849.99. The final total with a $14.99 shipping fee and tax is $918.48.
+Expected arrival in 10011 is by Oct 10th. Riley can be reached at riley@example.com, 646-555-1234.
+
+Q: How much was the total for my Garmin watch including shipping?
+A: The total for your Garmin watch including shipping was $918.48.
+Q: When will my Garmin watch be delivered?
+A: Your Garmin watch will be delivered by Oct 10th.
+Q: What's the product ID of the Garmin Fenix 6S Pro Solar I ordered?
+A: The product ID of the Garmin Fenix 6S Pro Solar you ordered is GM-F6SPS.
+
+
+P: Sam ordered a 'Peloton Bike' on BigMart, order number BM101010. The bike, ID PT-BIKE, cost
+$1,895.00. With $39.00 shipping and tax, the total was $2,046.35. It's expected to arrive at
+zip 94110 by Nov 11th. Contact: sam@example.com, 415-992-3344.
+
+Q: What is the total amount I paid for the Peloton Bike?
+A: The total amount you paid for the Peloton Bike was $2,046.35.
+Q: When should I expect the delivery of my Peloton Bike?
+A: You should expect the delivery of your Peloton Bike by Nov 11th.
+Q: Can you tell me the product ID of the Peloton Bike I purchased?
+A: The product ID of the Peloton Bike you purchased is PT-BIKE.
+
+
+P: Bailey made a purchase of 'Sony WH-1000XM4 Wireless Headphones' at BigMart, order BM111111.
+The headphones, ID SN-WH1000XM4, were $348.00. After tax and a $5.00 shipping fee, the total
+is $375.60. Delivery to 80202 is expected by Dec 12th. Contact: bailey@example.com, 720-555-6789.
+
+Q: How much did I pay in total for the Sony headphones?
+A: You paid $375.60 in total for the Sony headphones.
+Q: When can I expect my headphones to be delivered?
+A: You can expect your headphones to be delivered by Dec 12th.
+Q: What is the product ID for the Sony WH-1000XM4 I ordered?
+A: The product ID for the Sony WH-1000XM4 you ordered is SN-WH1000XM4.

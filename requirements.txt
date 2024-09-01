@@ -1,0 +1,11 @@
+python-random-name-generator
+names
+pyFPE
+torch
+transformers>=4.30.1
+datasets
+evaluate
+fire
+tokenizers>=0.13.1
+gradio
+

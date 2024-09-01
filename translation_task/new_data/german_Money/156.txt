@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_011ru5oMrjk8SJQx8mf12bTi","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Here is the identified 'Money' from the given text, formatted as a list:\n\n- Azerbaijanian Manat 621,497.03"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":108,"output_tokens":36}}

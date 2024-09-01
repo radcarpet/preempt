@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01SUmSMa2u26rZSdRkUtSLqc","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Here is the identified 'Money' from the given text, formatted as a list:\n\n- Fiji Dollar0.42m"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":93,"output_tokens":30}}

@@ -1,0 +1,124 @@
+P: Mr. Johnson recently made a purchase on E-Shop.com using his credit card 4567 8910 1112 1314. The transaction was completed on Mar 12th and was shipped to his address in the 90210 zip code area.
+Q: What is the zip code of the address where the purchase was shipped?
+A: 90210
+
+P: Sarah ordered a new laptop from OnlineMarketplace.com. The payment was processed using her credit card number 1234 5678 9101 1121 on Apr 5th. Delivery was arranged to 10001 zip code.
+Q: Where did Sarah order her new laptop from?
+A: OnlineMarketplace.com
+
+P: On Jul 7th, a purchase was made at VirtualShop.com with the credit card number 2345 6789 0123 4567. The product was shipped to the 12345 zip code region.
+Q: What was the number of the credit card used for the purchase on VirtualShop.com?
+A: 2345 6789 0123 4567
+
+P: A customer used their credit card 3456 7890 1234 5678 for a transaction at BuyNow.com on Jun 21st. The goods were delivered to the area with the zip code 54321.
+Q: On which date was the transaction made at BuyNow.com?
+A: Jun 21st
+
+P: A recent transaction on SellFast.com was made using the credit card number 4567 8901 2345 6789. This purchase on May 16th was shipped to the 67890 zip code area.
+Q: To which zip code area was the purchase from SellFast.com shipped?
+A: 67890
+
+P: Emily used her credit card 5678 9012 3456 7890 for an online purchase from QuickBuy.com on Aug 30th. The product was sent to the 78901 zip code.
+Q: What is the number of the credit card used by Emily for the online purchase?
+A: 5678 9012 3456 7890
+
+P: On Sep 25th, a customer made a purchase on WebStore.com using the credit card 6789 0123 4567 8901. The delivery address was in the 89012 zip code area.
+Q: What website was the purchase made on?
+A: WebStore.com
+
+P: An order was placed on MarketPlace.com using the credit card 7890 1234 5678 9012 on Oct 14th. The delivery was made to the zip code 90123.
+Q: What date was the order placed on MarketPlace.com?
+A: Oct 14th
+
+P: A payment of $250 was made on E-buy.com using the credit card 8901 2345 6789 0123 on Nov 22nd. The items were shipped to the zip code 01234.
+Q: How much was the payment made on E-buy.com?
+A: $250
+
+P: On Dec 3rd, Linda made a purchase at QuickSell.com with her credit card 9012 3456 7890 1234. The order was shipped to the 12340 zip code.
+Q: Who made the purchase at QuickSell.com?
+A: Linda
+
+P: John completed an order on FastShop.com using his credit card 1122 3344 5566 7788 on Jan 19th. The items were shipped to the 22133 zip code.
+Q: To what zip code were John's items shipped?
+A: 22133
+
+P: A transaction was made on OnlineStore.com with the credit card 2233 4455 6677 8899 on Feb 28th. The goods were sent to the 33444 zip code area.
+Q: What was the credit card number used for the transaction on OnlineStore.com?
+A: 2233 4455 6677 8899
+
+P: ShopRight.com received an order paid with the credit card 3344 5566 7788 9900 on Mar 15th. The shipping address was in the 44555 zip code region.
+Q: On which date was the order placed on ShopRight.com?
+A: Mar 15th
+
+P: Amy bought a dress from FashionHub.com using her credit card 4455 6677 8899 0011 on Apr 21st. The delivery was to the 55666 zip code.
+Q: Who made a purchase from FashionHub.com?
+A: Amy
+
+P: On May 10th, a purchase was made at TechWorld.com with credit card number 5566 7788 9900 1122. The product was shipped to the 66777 zip code area.
+Q: What is the zip code area to which the product from TechWorld.com was shipped?
+A: 66777
+
+P: A customer used their credit card 6677 8899 0011 2233 for a transaction on HomeGoods.com on Jun 2nd. The goods were delivered to the 77888 zip code.
+Q: What is the number of the credit card used for the transaction on HomeGoods.com?
+A: 6677 8899 0011 2233
+
+P: An order was placed on KidsToys.com using the credit card 7788 9900 1122 3344 on Jul 26th. The delivery was made to the 88999 zip code.
+Q: On what date was the order placed on KidsToys.com?
+A: Jul 26th
+
+P: A payment of $150 was made on BookWorld.com using the credit card 8899 0011 2233 4455 on Aug 18th. The items were shipped to the 99122 zip code.
+Q: How much was the payment made on BookWorld.com?
+A: $150
+
+P: On Sep 9th, Mark made a purchase at GadgetZone.com with his credit card 9900 1122 3344 5566. The order was shipped to the 11222 zip code.
+Q: Who made the purchase at GadgetZone.com?
+A: Mark
+
+P: A recent transaction on ElectronicsStore.com was made using the credit card number 1234 5678 9101 1121. This purchase on Oct 30th was shipped to the 12321 zip code area.
+Q: To which zip code area was the purchase from ElectronicsStore.com shipped?
+A: 12321
+
+P: On Nov 11th, a customer made a purchase on AllForHome.com using the credit card 2345 6789 0123 4567. The delivery address was in the 23432 zip code area.
+Q: What website was the purchase made on?
+A: AllForHome.com
+
+P: An order was placed on FashionStreet.com using the credit card 3456 7890 1234 5678 on Dec 5th. The delivery was made to the 34543 zip code.
+Q: What date was the order placed on FashionStreet.com?
+A: Dec 5th
+
+P: Linda used her credit card 4567 8901 2345 6789 for an online purchase from BeautyWorld.com on Jan 16th. The product was sent to the 45654 zip code.
+Q: What is the number of the credit card used by Linda for the online purchase?
+A: 4567 8901 2345 6789
+
+P: A transaction was made on BestBuys.com with the credit card 5678 9012 3456 7890 on Feb 22nd. The goods were sent to the 56765 zip code area.
+Q: What was the credit card number used for the transaction on BestBuys.com?
+A: 5678 9012 3456 7890
+
+P: On Mar 8th, a purchase was made at SuperStore.com with the credit card number 6789 0123 4567 8901. The product was shipped to the 67876 zip code region.
+Q: On which date was the purchase made at SuperStore
+A: Mar 8th
+
+P: A customer used their credit card 7890 1234 5678 9012 for a transaction at MegaMarket.com on Apr 14th. The goods were delivered to the area with the zip code 78987.
+Q: On which date was the transaction made at MegaMarket.com?
+A: Apr 14th
+
+P: A recent transaction on QuickDeals.com was made using the credit card number 8901 2345 6789 0123. This purchase on May 20th was shipped to the 89098 zip code area.
+Q: To which zip code area was the purchase from QuickDeals.com shipped?
+A: 89098
+
+P: Emily used her credit card 9012 3456 7890 1234 for an online purchase from DealFinder.com on Jun 29th. The product was sent to the 90189 zip code.
+Q: What is the number of the credit card used by Emily for the online purchase?
+A: 9012 3456 7890 1234
+
+P: On Jul 17th, a customer made a purchase on SmartShop.com using the credit card 0123 4567 8901 2345. The delivery address was in the 01230 zip code area.
+Q: What website was the purchase made on?
+A: SmartShop.com
+
+P: An order was placed on HomeEssentials.com using the credit card 1234 5678 9012 3456 on Aug 31st. The delivery was made to the 12309 zip code.
+Q: What date was the order placed on HomeEssentials.com?
+A: Aug 31st
+
+P: A payment of $300 was made on ToyUniverse.com using the credit card 2345 6789 0123 4567 on Sep 23rd. The items were shipped to the 23409 zip code.
+Q: How much was the payment made on ToyUniverse.com?
+A: $300
+

@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01R5jufTseyuKwhPX99jaWcu","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Liste des mentions d'argent dans le texte :\n\n- ₺ 0.2m"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":114,"output_tokens":26}}

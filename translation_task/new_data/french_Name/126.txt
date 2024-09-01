@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01SZLD6nqNmc1Q7wxpzQL4fb","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Voici la liste des noms identifiés dans le texte :\n\n- Leatha\n- Langworth"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":82,"output_tokens":28}}

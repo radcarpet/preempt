@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01GjvTgdKqBX1UjC12jsyAsw","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Here's a list of the 'Money' items identified in the given text:\n\n- £0.3928m"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":139,"output_tokens":28}}

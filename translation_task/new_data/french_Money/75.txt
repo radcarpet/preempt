@@ -1,0 +1,1 @@
+{"id":"msg_bdrk_01CJG7gYqFzyyRaA1mhUsrZt","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Voici la liste des mentions d'argent identifiées dans le texte :\n\n- ₨0.001b"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":134,"output_tokens":30}}
