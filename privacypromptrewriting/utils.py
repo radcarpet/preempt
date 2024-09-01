@@ -19,56 +19,83 @@ def format_align_digits(text, reference_text):
     return text
 
 
-def extract_entities_regex(text):
-  output_dict = {}
-  # Extract name (assuming it's in "First Last" format)
-  name_pattern = r"([A-Z][a-z]+ [A-Z][a-z]+)"
-  name_match = re.search(name_pattern, text)
-  if name_match:
-      output_dict['name'] = name_match.group(1)
- # else:
- #     name = None
+def extract_entities_regex(text, fields = ['name', 'age', 'bmi', 'bp', 'heart_rate']):
+    output_dict = {}
+    # Extract name (assuming it's in "First Last" format)
+    name_pattern = r"([A-Z][a-z]+ [A-Z][a-z]+)"
+    name_match = re.search(name_pattern, text)
+    if name_match:
+        output_dict['name'] = name_match.group(1)
+    # else:
+    #     name = None
 
-  # Extract age
-  age_pattern = r"\b(\d{1,3})\s*years? old\b"
-  age_match = re.search(age_pattern, text)
-  if age_match:
-      output_dict['age'] = age_match.group(1)
-  #else:
-  #    age = None
+    # Extract age
+    age_pattern = r"\b(\d{1,3})\s*years? old\b"
+    age_match = re.search(age_pattern, text)
+    if age_match:
+        output_dict['age'] = age_match.group(1)
+    #else:
+    #    age = None
 
-  # Extract salary
-  salary_pattern = r"\$([0-9,]+)"
-  salary_match = re.search(salary_pattern, text)
-  if salary_match:
-      output_dict['salary'] = salary_match.group(1).replace(',', '')
-  #else:
-  #    salary = None
+    # Extract salary
+    salary_pattern = r"\$([0-9,]+)"
+    salary_match = re.search(salary_pattern, text)
+    if salary_match:
+        output_dict['salary'] = salary_match.group(1).replace(',', '')
+    #else:
+    #    salary = None
 
-  # Extract zipcode
-  #zipcode_pattern = r"\b(\d{5}(?:-\d{4})?)\b"
-  #zipcode_match = re.search(zipcode_pattern, text)
-  #if zipcode_match:
-  #    output_dict['zipcode'] = zipcode_match.group(1)
-  #else:
-  #    zipcode = None
+    # Extract zipcode
+    #zipcode_pattern = r"\b(\d{5}(?:-\d{4})?)\b"
+    #zipcode_match = re.search(zipcode_pattern, text)
+    #if zipcode_match:
+    #    output_dict['zipcode'] = zipcode_match.group(1)
+    #else:
+    #    zipcode = None
 
-  # Extract SSN
-  ssn_pattern = r"\b(\d{3}-\d{2}-\d{4})\b"
-  ssn_match = re.search(ssn_pattern, text)
-  if ssn_match:
-      output_dict['ssn'] = ssn_match.group(1)
-  #else:
-  #    ssn = None
+    # Extract SSN
+    ssn_pattern = r"\b(\d{3}-\d{2}-\d{4})\b"
+    ssn_match = re.search(ssn_pattern, text)
+    if ssn_match:
+        output_dict['ssn'] = ssn_match.group(1)
+    #else:
+    #    ssn = None
 
-  # Extract date in yyyy-mm-dd format
-  date_pattern = r"(\d{4}-\d{2}-\d{2})"
-  date_match = re.search(date_pattern, text)
-  if date_match:
-      output_dict['date'] = date_match.group(1)
-  #else:
-  #    date = None
-  return output_dict
+    # Extract date in yyyy-mm-dd format
+    date_pattern = r"(\d{4}-\d{2}-\d{2})"
+    date_match = re.search(date_pattern, text)
+    if date_match:
+        output_dict['date'] = date_match.group(1)
+    #else:
+    #    date = None
+
+    if 'bmi' in fields:
+        bmi_pattern = text.split()
+        bmi_pattern = bmi_pattern[bmi_pattern.index('bmi') + 1][:-1]
+        output_dict['bmi'] = bmi_pattern
+
+    if 'bp' in fields:
+        bp_pattern = text.split()
+        bp_pattern = bp_pattern[bp_pattern.index('pressure') + 2]
+        bp_pattern_sys, bp_pattern_dia = bp_pattern.replace('mmHG', '').split('/')
+        output_dict['bp_sys'], output_dict['bp_dia'] = bp_pattern_sys.replace(',',''), bp_pattern_dia.replace(',','')
+
+    if 'heart_rate' in fields:
+        heart_rate_pattern = text.split()
+        heart_rate_pattern = heart_rate_pattern[heart_rate_pattern.index('rate') + 2].replace('.','')
+        output_dict['heart_rate'] = heart_rate_pattern.replace('bpm', '')
+        
+    if 'height' in fields:
+        height_pattern = text.split()
+        height_pattern = height_pattern[height_pattern.index('height') + 2].replace(',', '')
+        output_dict['height'] = height_pattern.replace('cm', '')
+        
+    if 'weight' in fields:
+        weight_pattern = text.split()
+        weight_pattern = weight_pattern[weight_pattern.index('weight') + 2].replace(',', '')
+        output_dict['weight'] = weight_pattern.replace('kg', '')
+        
+    return output_dict
 
 
 def extract_entities_LLM(text,model,list_of_entities=['Full Name','Age','Money','Zipcode','SSN','Date']):
@@ -162,6 +189,22 @@ def generate_encrypted_entities_regex(entities, N, epsilon, c):
   output_dict = {}
   if 'name' in entities.keys():
     output_dict['name'] = rng.generate(descent=rng.Descent.ENGLISH, sex=rng.Sex.MALE, limit=1)[0]
+    
+  if 'bmi' in entities.keys():
+    bmi = M_epsilon(int(entities['bmi']), 15, 45, epsilon)
+    output_dict['bmi'] = bmi
+    
+  if 'height' in entities.keys():
+    height = M_epsilon(int(entities['height']), 150, 210, epsilon)
+    output_dict['height'] = height
+    
+  if 'weight' in entities.keys():
+    weight = M_epsilon(int(entities['weight']), 40, 105, epsilon)
+    output_dict['weight'] = weight
+    
+  if 'heart_rate' in entities.keys():
+    heart_rate = M_epsilon(int(entities['heart_rate']), 55, 125, epsilon)
+    output_dict['heart_rate'] = heart_rate
 
   # Add noise to age and encrypt
   if 'age' in entities.keys():
@@ -249,50 +292,6 @@ def generate_encrypted_entities_LLM(entities, N, rho, epsilon, c, key, tweak):
     
   return entities
 
-
-#def decrypt_entities_regex(entities, original_entities, c):
-#  # Recover original name
-#  name = original_entities['name']
-#
-#  # Decrypt age
-#  age = c.decrypt(entities['age'])
-#
-#  # Recover original Salary
-#  salary = original_entities['salary']
-#
-#  # Decrypt Zipcode
-#  zipcode = c.decrypt(entities['zipcode'])
-#
-#  # Decrypt SSN while preserving dash structure
-#  ssn = format_align_digits(c.decrypt(entities['ssn'].replace("-", "")),entities['ssn'])
-#  return {"name": name, "age": age, "salary": salary, "zipcode": zipcode, "ssn": ssn}
-#
-#def decrypt_entities_LLM(entities, original_entities, c):
-#  # Recover original name
-#  if 'Full Name' in entities.keys():
-#    entities['Full Name'] = original_entities['Full Name']
-#
-#  # Decrypt age
-#  if 'Age' in entities.keys():
-#    entities['Age'] = original_entities['Age'] #c.decrypt(entities['Age']) #got rid of decrypt with lookupt table cause FPE breaks on small numbers
-#
-#  # Recover original Salary
-#  if 'Money' in entities.keys():
-#    entities['Money'] = original_entities['Money']
-#
-#  # Decrypt Zipcode
-#  if 'Zipcode' in entities.keys():
-#    entities['Zipcode'] = c.decrypt(entities['Zipcode'])
-#
-#  # Decrypt SSN while preserving dash structure
-#  if 'SSN' in entities.keys():
-#    entities['SSN'] = format_align_digits(c.decrypt(entities['SSN'].replace("-", "")),entities['SSN'])
-#
-#  # Decrypt Date
-#  #if 'Date' in entities.keys():
-#    # work in progress, many possible standards for formatting with unclear preservation during NER, unclear what type of encryption/noising scheme we would want to employ for this
-#  return entities
-
 def update_entities_regex(text, entities):
   # Replace extracted values in the original text
   if 'name' in entities.keys():
@@ -305,6 +304,26 @@ def update_entities_regex(text, entities):
   #  text = re.sub(r"\b(\d{5}(?:-\d{4})?)\b", str(entities['zipcode']), text)
   if 'ssn' in entities.keys():
     text = re.sub(r"\b(\d{3}-\d{2}-\d{4})\b", entities['ssn'], text)
+  if 'bmi' in entities.keys():
+    text_ = text.split()
+    text_[text_.index('bmi') + 1] = f"{entities['bmi']:.2f}."
+    text = ' '.join(text_)
+  if 'height' in entities.keys():
+    text_ = text.split()
+    text_[text_.index('height') + 2] = f"{entities['height']}cm,"
+    text = ' '.join(text_)
+  if 'weight' in entities.keys():
+    text_ = text.split()
+    text_[text_.index('weight') + 2] = f"{entities['weight']}kg"
+    text = ' '.join(text_)
+  if 'bp_sys' in entities.keys():
+    text_ = text.split()
+    text_[text_.index('pressure') + 2] = f"{entities['bp_sys']}/{entities['bp_dia']}mmHG"
+    text = ' '.join(text_)
+  if 'heart_rate' in entities.keys():
+    text_ = text.split()
+    text_[text_.index('rate') + 2] = f"{entities['heart_rate']}bpm."
+    text = ' '.join(text_)
   return text
 
 def update_entities_LLM(text, encrypted_entities, decrypted_entities):
