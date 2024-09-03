@@ -5,6 +5,7 @@ import numpy as np
 from pyfpe_ff3 import FF3Cipher, format_align_digits
 
 import sys
+sys.path.insert(0, '../universal-ner')
 from src.utils import *
 from utils_backup import *
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
