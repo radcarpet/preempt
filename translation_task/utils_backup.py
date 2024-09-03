@@ -62,7 +62,6 @@ def save_json_list(data, path):
     with open(path, 'w') as fp:
         json.dump(data, fp, indent=2)
 
-### Seed everything. Credits; Ashish Hooda.
 def seed_everything(seed):
     random.seed(seed)
     np.random.seed(seed)
