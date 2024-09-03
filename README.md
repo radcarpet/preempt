@@ -5,7 +5,7 @@ Code submission for USENIX-Security
 Install libraries in a conda environment with `packagelist.txt`.
 
 ## Running Experiments
-### Translation
+### Translation and NER
 
 All relevant translation experiment code and details can be found under `translation_task`.
 
