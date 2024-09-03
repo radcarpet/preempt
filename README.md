@@ -1,6 +1,9 @@
 # preempt
 Code submission for USENIX-Security
 
+## Setup
+Install libraries in a conda environment with `packagelist.txt`.
+
 ## Running Experiments
 ### Translation
 
