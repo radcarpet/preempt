@@ -127,6 +127,9 @@ entities = [args.entity]
 if args.entity=='all':
     entities = ['Name', 'Age', 'Money']
 
+# Preprocess
+if model_path[-1]=='/': model_path=model_path[:-1]
+
 # Data
 if os.path.isfile(f"datasets/ner_extract_test_inputs_pii_{samples}.json"):
     data_dict = load_json_dataset(f"datasets/ner_extract_test_inputs_pii_{samples}.json")
@@ -211,6 +214,7 @@ for entity in entities:
         # Gemma-2-9B-Inst
         if 'gemma' in model_path.lower():
             save_path = f"results/{model_path.split('/')[-1]}_ner_extract_{entity}_{lang}.json"
+            print(save_path)
             if not os.path.isfile(save_path):
                 extracted = extract_entities_gemma(
                     data_dict[lang][entity],
