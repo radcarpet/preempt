@@ -2,12 +2,14 @@
 Code submission for USENIX-Security
 
 ## Setup
-Install libraries in a conda environment with `packagelist.txt`.
+Install libraries in a conda environment with `packagelist.txt` and requirements.txt.
 
 ## Running Experiments
 ### Translation and NER
 
 All relevant translation experiment code and details can be found under `translation_task`.
+
+Using the [Universal-NER](https://github.com/universal-ner/universal-ner) models requires its own setup. Please follow instructions in the `universal-ner` folder.
 
 ### Medical QA
 
