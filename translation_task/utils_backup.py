@@ -1077,26 +1077,21 @@ def get_encrypted_values(inputs, entity, N, rho, epsilon, c):
             for real_money in input:
                 # money = real_money
                 try:
-                    # while money==real_money:
-                    #     if int(float(real_money))==1:
-                    #         money = round(M_epsilon(int(float(real_money)),1,2,epsilon), 2)
-                    #     elif int(float(real_money))<100:
-                    #         money = round(M_epsilon(int(float(real_money)),2,1000,epsilon), 2)
-                    #     elif int(float(real_money))<10000:
-                    #         money = round(M_epsilon(int(float(real_money)),100,100000,epsilon), 2)
-                    #     else:
-                    #         money = round(M_epsilon(int(float(real_money)),10000,100000,epsilon), 2)
-                    money = M_epsilon(int(float(real_money)),
-                                      max(0,int(float(real_money)*(1-rho['Money']))),
-                                      min(int(float(real_money)*(1+rho['Money'])),int(float(real_money)*2)),
-                                      epsilon,
-                                     )   
+                    if int(float(real_money))==1:
+                        money = round(M_epsilon(int(float(real_money)),1,2,epsilon), 2)
+                    elif int(float(real_money))<100:
+                        money = round(M_epsilon(int(float(real_money)),2,1000,epsilon), 2)
+                    elif int(float(real_money))<10000:
+                        money = round(M_epsilon(int(float(real_money)),100,100000,epsilon), 2)
+                    else:
+                        money = round(M_epsilon(int(float(real_money)),10000,100000,epsilon), 2)
+   
                     temp.append(str(money))
                 except Exception as e:
-                    counter += 1
-                    print("COUNTER:", counter)
-                    print(e)
-                    print("Error value:", real_money)
+                    # counter += 1
+                    # print("COUNTER:", counter)
+                    # print(e)
+                    # print("Error value:", real_money)
                     temp.append('NaN')
             
             new_entities.append(temp)

@@ -7,11 +7,11 @@ ENTITY=Age
 TRANS_MODEL=opus-mt-de-en
 # TRANS_MODEL=gpt-4
 # TRANS_MODEL=gemini
-SAMPLES=50
+SAMPLES=1
 # API_KEY=SECRET_KEY
-# API_KEY=SECRET_KEY
+API_KEY=SECRET_KEY
 
-TAG=/SAVE_PATH_${TASK}
+TAG=./SAVE_PATH_${TASK}
 
 CUDA_VISIBLE_DEVICES=${DEVICE} python3 translation_task.py \
     --task ${TASK} \
@@ -21,7 +21,6 @@ CUDA_VISIBLE_DEVICES=${DEVICE} python3 translation_task.py \
     --ner_path ${NER_MODEL} \
     --tag ${TAG} \
     --samples ${SAMPLES} \
-    --exact_indices ${EXACT_INDICES} \
     --api_key ${API_KEY} \
     
 
@@ -31,11 +30,11 @@ ENTITY=Name
 TRANS_MODEL=opus-mt-de-en
 # TRANS_MODEL=gpt-4
 # TRANS_MODEL=gemini
-SAMPLES=50
+SAMPLES=1
 # API_KEY=SECRET_KEY
-# API_KEY=SECRET_KEY
+API_KEY=SECRET_KEY
 
-TAG=/SAVE_PATH_${TASK}
+TAG=./SAVE_PATH_${TASK}
 
 CUDA_VISIBLE_DEVICES=${DEVICE} python3 translation_task.py \
     --task ${TASK} \
@@ -45,7 +44,6 @@ CUDA_VISIBLE_DEVICES=${DEVICE} python3 translation_task.py \
     --ner_path ${NER_MODEL} \
     --tag ${TAG} \
     --samples ${SAMPLES} \
-    --exact_indices ${EXACT_INDICES} \
     --api_key ${API_KEY} \
     
 TASK=de-en
@@ -54,11 +52,11 @@ ENTITY=Money
 TRANS_MODEL=opus-mt-de-en
 # TRANS_MODEL=gpt-4
 # TRANS_MODEL=gemini
-SAMPLES=50
+SAMPLES=1
 # API_KEY=SECRET_KEY
-# API_KEY=SECRET_KEY
+API_KEY=SECRET_KEY
 
-TAG=/SAVE_PATH_${TASK}
+TAG=./SAVE_PATH_${TASK}
 
 CUDA_VISIBLE_DEVICES=${DEVICE} python3 translation_task.py \
     --task ${TASK} \
@@ -68,5 +66,4 @@ CUDA_VISIBLE_DEVICES=${DEVICE} python3 translation_task.py \
     --ner_path ${NER_MODEL} \
     --tag ${TAG} \
     --samples ${SAMPLES} \
-    --exact_indices ${EXACT_INDICES} \
     --api_key ${API_KEY} \

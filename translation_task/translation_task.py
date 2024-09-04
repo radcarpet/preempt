@@ -184,7 +184,7 @@ print("Data preprocessing...")
 num_data_en = []
 num_data_de = []
 for entity in named_entities:
-    with open(f'cache/{source_lang}_{target_lang}_data_{entity}_large.json', 'r') as fp:
+    with open(f'cache/{source_lang}_{target_lang}_data_{entity}.json', 'r') as fp:
         data = json.load(fp)
 
     num_data_en.extend(data[f'{source_lang}_data'])
