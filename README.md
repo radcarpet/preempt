@@ -2,7 +2,7 @@
 Code submission for USENIX-Security
 
 ## Setup
-Install libraries in a conda environment with `packagelist.txt` and requirements.txt.
+Install libraries in a conda environment with `packagelist.txt` and `requirements.txt`.
 
 ## Running Experiments
 ### Translation and NER
