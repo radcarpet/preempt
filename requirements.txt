@@ -8,4 +8,9 @@ evaluate
 fire
 tokenizers>=0.13.1
 gradio
+faker
+openai
+matplotlib
+statsmodels
+
 
