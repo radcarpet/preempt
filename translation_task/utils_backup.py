@@ -1050,8 +1050,8 @@ def get_encrypted_values(inputs, entity, N, rho, epsilon, c):
             temp = []
             for k in range(len(input)):
                 temp_name = names.get_full_name(gender='male')
-                while temp_name in temp:
-                    temp_name = names.get_full_name(gender='male')
+                # while temp_name in temp:
+                #     temp_name = names.get_full_name(gender='male')
                 temp.append(temp_name)
             # entities['Full Name'] = rng.generate(descent=rng.Descent.ENGLISH, sex=rng.Sex.MALE, limit=1)[0]
             new_entities.append(temp)
