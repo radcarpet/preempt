@@ -1,5 +1,5 @@
 vllm
-transformers>=4.30.1
+transformers
 fire
-tokenizers>=0.13.1
+tokenizers
 gradio
