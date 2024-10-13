@@ -33,6 +33,8 @@ from dotenv import load_dotenv
 import importlib
 import re
 
+import sys
+sys.path.append("..")
 from privacypromptrewriting.sanitize.sanitizer import sanitize_texts
 from privacypromptrewriting.sanitize.desanitizer import desanitize_texts
 from privacypromptrewriting.sanitize.qa import answer_questions
@@ -80,7 +82,7 @@ def main(
         "binary_comparisons_far",
         "--examples",
         "-e",
-        help="examples file under privacypromptrewriting/sanitize/data",
+        help="examples file under ../privacypromptrewriting/sanitize/data",
     ),
     model: str = typer.Option("", "--model", "-m", help="model name"),
     output: str = typer.Option("evalqa.txt", "--output", "-o", help="output file"),
