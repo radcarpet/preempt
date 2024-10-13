@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/path/to/universal-ner/src')
+sys.path.insert(0, '../universal-ner/src')
 
 import random_name_generator as rng
 import math
