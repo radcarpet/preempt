@@ -7,7 +7,8 @@ from langroid.agent.chat_agent import ChatAgent, ChatAgentConfig
 from langroid.language_models.base import LLMConfig
 from langroid.agent.chat_document import ChatDocument, ChatDocMetaData, Entity
 
-
+import sys
+sys.path.append("../..")
 from privacypromptrewriting.sanitize.globals import SanitizationState
 from privacypromptrewriting.utils import *
 from privacypromptrewriting.aes import decrypt
