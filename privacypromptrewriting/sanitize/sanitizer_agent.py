@@ -7,6 +7,9 @@ from langroid.agent.chat_agent import ChatAgent, ChatAgentConfig
 from langroid.agent.chat_document import ChatDocument
 from langroid.utils.configuration import settings
 from langroid.parsing.json import extract_top_level_json
+
+import sys
+sys.path.append("../..")
 from privacypromptrewriting.sanitize.globals import SanitizationState, SanitizationInfo
 from privacypromptrewriting.utils import *
 from privacypromptrewriting.sanitize.sanitize_tool import SanitizeTool
