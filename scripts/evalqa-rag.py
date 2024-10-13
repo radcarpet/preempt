@@ -37,6 +37,9 @@ from pathlib import Path
 import re
 
 import langroid.language_models as lm
+
+import sys
+sys.path.append("..")
 from privacypromptrewriting.sanitize.globals import SanitizationState
 from privacypromptrewriting.sanitize.sanitizer import sanitize_texts
 from privacypromptrewriting.sanitize.desanitizer import desanitize_texts
@@ -159,7 +162,7 @@ def main(
     globals = SanitizationState.get_instance()
     globals.sanitize_type = sanitize_type
     model = model or lm.OpenAIChatModel.GPT4_TURBO
-    data_dir = "privacypromptrewriting/sanitize/data"
+    data_dir = "../privacypromptrewriting/sanitize/data"
     samples = parse_ragqa_file(Path(data_dir) / examples)
 
     newlines2 = "\n\n"
