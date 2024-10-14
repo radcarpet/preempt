@@ -31,3 +31,4 @@ rich
 python-dotenv
 typer
 typing
+sacremoses
