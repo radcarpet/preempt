@@ -13,7 +13,8 @@ anthropic
 pyFPE
 ff3
 torch
-transformers>=4.30.1
+transformers>=4.42.3
+flash-attn
 datasets
 evaluate
 fire
@@ -25,7 +26,7 @@ scipy
 sentencepiece
 faker
 pycryptodome
-langroid==0.1.175
+langroid=0.1.175
 huggingface-hub=0.22.0
 rich
 python-dotenv
