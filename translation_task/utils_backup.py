@@ -451,7 +451,7 @@ def extract_entities_llama(
     output_dict[entity] = []
     
     def format_prompt(input):
-        conv = get_conv_template('llama-3')
+        conv = get_conv_template('llama3')
         conv.set_system_message(
             f"Please identify {entity} from the given text. Format the output as list with no additional text. Example: ['{entity}_1', '{entity}_2']." if entity!='Money' else f"Please identify Currency Value from the given text. Format the output as list with no additional text. Example: ['Currency Value 1', 'Currency Value 2']."
         )
